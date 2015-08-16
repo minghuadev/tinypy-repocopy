@@ -564,3 +564,14 @@ Changed paths:
 
 fixed memory leak in list and dict copy functions
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r39 | philhassey | 2008-05-20 14:29:21 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/tests.py
+
+improved kwargs support
+------------------------------------------------------------------------
