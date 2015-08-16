@@ -1333,3 +1333,11 @@ Changed paths:
 
 removing cpython from modules, since it's been moved to root
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r111 | denis.kasak | 2008-09-07 02:09:01 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/cpython/cpython.c
+
+Stripped out returning code for lists and dictionaries until we get cycles sorted out.
+------------------------------------------------------------------------
