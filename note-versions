@@ -690,3 +690,13 @@ Changed paths:
 
 applied OSX patch by Atul Varma
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r50 | philhassey | 2008-06-01 17:01:48 +0000 (Sun, 01 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tests.py
+
+fix to issue #14 by dean
+------------------------------------------------------------------------
