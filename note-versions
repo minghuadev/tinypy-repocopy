@@ -1374,3 +1374,11 @@ Changed paths:
 
 stop infinite lookup after 8 tries
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r116 | philhassey | 2008-09-07 04:55:19 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/vm.c
+
+replaced malloc with calloc to appease valgrind
+------------------------------------------------------------------------
