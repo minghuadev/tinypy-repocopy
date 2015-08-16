@@ -456,3 +456,13 @@ Changed paths:
 
 added math module by Rockins Chen
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r29 | philhassey | 2008-05-10 06:34:40 +0000 (Sat, 10 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/parse.py
+   M /trunk/tinypy/tests.py
+
+fixed precedent of **
+------------------------------------------------------------------------
