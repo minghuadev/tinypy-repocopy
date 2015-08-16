@@ -1398,3 +1398,11 @@ Changed paths:
 
 Fixing line endings and setting svn:eol-style for cpython/cpython.c
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r119 | denis.kasak | 2008-09-07 06:08:27 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/tests.py
+
+Fixing tests.py on Windows (forward slashes were used as directory separators).
+------------------------------------------------------------------------
