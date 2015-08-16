@@ -249,3 +249,63 @@ Changed paths:
 
 updating readme so it properly explains how to run setup.py
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r16 | philhassey | 2008-05-02 03:55:34 +0000 (Fri, 02 May 2008) | 1 line
+Changed paths:
+   D /trunk/BUGS.txt
+   A /trunk/CHANGES.txt (from /branches/reorg/CHANGES.txt:15)
+   D /trunk/NOTES.txt
+   M /trunk/README.txt
+   A /trunk/ROADMAP.txt (from /branches/reorg/ROADMAP.txt:15)
+   D /trunk/TODO.txt
+   A /trunk/build (from /branches/reorg/build:15)
+   D /trunk/build.py
+   D /trunk/builtins.c
+   D /trunk/dict.c
+   A /trunk/doc (from /branches/reorg/doc:15)
+   D /trunk/encode.py
+   A /trunk/examples (from /branches/reorg/examples:15)
+   R /trunk/examples/julia.py (from /branches/reorg/examples/julia.py:15)
+   D /trunk/gc.c
+   D /trunk/julia.py
+   D /trunk/list.c
+   D /trunk/misc.c
+   D /trunk/mk64k.py
+   A /trunk/modules (from /branches/reorg/modules:15)
+   R /trunk/modules/pygame.c (from /branches/reorg/modules/pygame.c:15)
+   D /trunk/ops.c
+   D /trunk/parse.py
+   D /trunk/py2bc.py
+   A /trunk/setup.py (from /branches/reorg/setup.py:15)
+   D /trunk/string.c
+   D /trunk/tests.py
+   A /trunk/tinypy (from /branches/reorg/tinypy:15)
+   R /trunk/tinypy/boot.py (from /branches/reorg/tinypy/boot.py:15)
+   R /trunk/tinypy/builtins.c (from /branches/reorg/tinypy/builtins.c:15)
+   R /trunk/tinypy/dict.c (from /branches/reorg/tinypy/dict.c:15)
+   R /trunk/tinypy/encode.py (from /branches/reorg/tinypy/encode.py:15)
+   R /trunk/tinypy/gc.c (from /branches/reorg/tinypy/gc.c:15)
+   R /trunk/tinypy/list.c (from /branches/reorg/tinypy/list.c:15)
+   R /trunk/tinypy/misc.c (from /branches/reorg/tinypy/misc.c:15)
+   R /trunk/tinypy/ops.c (from /branches/reorg/tinypy/ops.c:15)
+   R /trunk/tinypy/parse.py (from /branches/reorg/tinypy/parse.py:15)
+   R /trunk/tinypy/py2bc.py (from /branches/reorg/tinypy/py2bc.py:15)
+   R /trunk/tinypy/string.c (from /branches/reorg/tinypy/string.c:15)
+   R /trunk/tinypy/tests.py (from /branches/reorg/tinypy/tests.py:15)
+   R /trunk/tinypy/tokenize.py (from /branches/reorg/tinypy/tokenize.py:15)
+   R /trunk/tinypy/tp.c (from /branches/reorg/tinypy/tp.c:15)
+   R /trunk/tinypy/tp.h (from /branches/reorg/tinypy/tp.h:15)
+   R /trunk/tinypy/tpmain.c (from /branches/reorg/tinypy/tpmain.c:15)
+   R /trunk/tinypy/vm.c (from /branches/reorg/tinypy/vm.c:15)
+   R /trunk/tinypy/vmmain.c (from /branches/reorg/tinypy/vmmain.c:15)
+   D /trunk/tinypy-sdl.c
+   D /trunk/tokenize.py
+   D /trunk/tp.c
+   D /trunk/tp.h
+   D /trunk/tpmain.c
+   D /trunk/vm.c
+   D /trunk/vmmain.c
+
+merging reorg back into the trunk
+------------------------------------------------------------------------
