@@ -1484,3 +1484,13 @@ Changed paths:
 
 changed bytecode to being stored as strings instead of as void pointers
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r127 | philhassey | 2008-09-13 22:15:39 +0000 (Sat, 13 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/asm.py
+   M /branches/sandbox/tinypy/tests.py
+   M /branches/sandbox/tinypy/vm.c
+
+got bounds checking passing
+------------------------------------------------------------------------
