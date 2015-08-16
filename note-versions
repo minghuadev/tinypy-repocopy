@@ -575,3 +575,17 @@ Changed paths:
 
 improved kwargs support
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r40 | philhassey | 2008-05-20 15:18:48 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/list.c
+   M /trunk/tinypy/misc.c
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/vm.c
+
+got it compiling with -Wc++-compat
+------------------------------------------------------------------------
