@@ -41,3 +41,37 @@ Changed paths:
 
 initial import of goodies
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r3 | philhassey | 2008-04-04 03:06:58 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   A /tags/1.0.0 (from /trunk:1)
+   A /tags/1.0.0/BUGS.txt (from /trunk/BUGS.txt:2)
+   A /tags/1.0.0/LICENSE.txt (from /trunk/LICENSE.txt:2)
+   A /tags/1.0.0/NOTES.txt (from /trunk/NOTES.txt:2)
+   A /tags/1.0.0/README.txt (from /trunk/README.txt:2)
+   A /tags/1.0.0/TODO.txt (from /trunk/TODO.txt:2)
+   A /tags/1.0.0/build.py (from /trunk/build.py:2)
+   A /tags/1.0.0/builtins.c (from /trunk/builtins.c:2)
+   A /tags/1.0.0/dict.c (from /trunk/dict.c:2)
+   A /tags/1.0.0/encode.py (from /trunk/encode.py:2)
+   A /tags/1.0.0/gc.c (from /trunk/gc.c:2)
+   A /tags/1.0.0/julia.py (from /trunk/julia.py:2)
+   A /tags/1.0.0/list.c (from /trunk/list.c:2)
+   A /tags/1.0.0/misc.c (from /trunk/misc.c:2)
+   A /tags/1.0.0/mk64k.py (from /trunk/mk64k.py:2)
+   A /tags/1.0.0/ops.c (from /trunk/ops.c:2)
+   A /tags/1.0.0/parse.py (from /trunk/parse.py:2)
+   A /tags/1.0.0/py2bc.py (from /trunk/py2bc.py:2)
+   A /tags/1.0.0/string.c (from /trunk/string.c:2)
+   A /tags/1.0.0/tests.py (from /trunk/tests.py:2)
+   A /tags/1.0.0/tinypy-sdl.c (from /trunk/tinypy-sdl.c:2)
+   A /tags/1.0.0/tokenize.py (from /trunk/tokenize.py:2)
+   A /tags/1.0.0/tp.c (from /trunk/tp.c:2)
+   A /tags/1.0.0/tp.h (from /trunk/tp.h:2)
+   A /tags/1.0.0/tpmain.c (from /trunk/tpmain.c:2)
+   A /tags/1.0.0/vm.c (from /trunk/vm.c:2)
+   A /tags/1.0.0/vmmain.c (from /trunk/vmmain.c:2)
+
+1.0.0 release tag
+------------------------------------------------------------------------
