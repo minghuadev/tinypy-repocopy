@@ -700,3 +700,11 @@ Changed paths:
 
 fix to issue #14 by dean
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r51 | allefant | 2008-06-02 13:24:33 +0000 (Mon, 02 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/tp.h
+
+Removed outdated comment about out-of-namespace symbols which are namespaced by now.
+------------------------------------------------------------------------
