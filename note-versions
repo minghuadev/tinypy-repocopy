@@ -1468,3 +1468,19 @@ Changed paths:
 
 removed all TP_CSTR and changed usage of TP_STR through whole sandbox.  These functions depended upon null-terminated strings, which cant be guaranteed in tinypy.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r126 | philhassey | 2008-09-13 21:41:22 +0000 (Sat, 13 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/builtins.c
+   M /branches/sandbox/tinypy/dict.c
+   M /branches/sandbox/tinypy/gc.c
+   M /branches/sandbox/tinypy/misc.c
+   M /branches/sandbox/tinypy/string.c
+   M /branches/sandbox/tinypy/tp.c
+   M /branches/sandbox/tinypy/tp.h
+   M /branches/sandbox/tinypy/vm.c
+   M /branches/sandbox/tinypy/vmmain.c
+
+changed bytecode to being stored as strings instead of as void pointers
+------------------------------------------------------------------------
