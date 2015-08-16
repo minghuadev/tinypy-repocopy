@@ -1131,3 +1131,11 @@ Changed paths:
 
 Fixed tp_print() and tp_strip() not to break on NUL chars inside strings. Resolves issue #18.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r89 | allefant | 2008-07-31 17:15:58 +0000 (Thu, 31 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/vm.c
+
+Applied part of patch from issue 24 using abort() instead of exit(-1) in _tp_raise when there's no handler - only consequence should be that now when run in gdb and an uncaught exception is thrown, you can examine the C stack instead of getting a clean program exit
+------------------------------------------------------------------------
