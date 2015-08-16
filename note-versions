@@ -1218,3 +1218,11 @@ Changed paths:
 
 Made the sandbox builtin remove additional unsafe builtins like mtime, load, save and system.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r98 | denis.kasak | 2008-08-07 05:06:56 +0000 (Thu, 07 Aug 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+Fixed setup.py to include the sandbox when building The Blob (tm).
+------------------------------------------------------------------------
