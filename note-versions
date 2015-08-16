@@ -482,3 +482,17 @@ Changed paths:
 
 applied fix to blob builder
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r32 | philhassey | 2008-05-20 03:00:49 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/modules/pygame/init.c
+   M /trunk/tinypy/gc.c
+   M /trunk/tinypy/misc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+cleaned up data API a bit
+------------------------------------------------------------------------
