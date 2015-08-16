@@ -719,3 +719,18 @@ Changed paths:
 
 Added naturaldocs parse-able comments to a few random functions.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r53 | philhassey | 2008-06-13 16:29:50 +0000 (Fri, 13 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/gc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+updated meta method support
+------------------------------------------------------------------------
