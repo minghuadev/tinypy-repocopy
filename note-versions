@@ -1565,3 +1565,11 @@ Changed paths:
 
 merging with sandbox branch
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r134 | ulfada | 2008-09-17 05:12:45 +0000 (Wed, 17 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/modules/random/random.c
+
+updated random module to meet new specifications
+------------------------------------------------------------------------
