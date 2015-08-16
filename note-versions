@@ -1289,3 +1289,13 @@ Changed paths:
 
 fixed indentation issue #26
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r106 | philhassey | 2008-09-06 19:23:15 +0000 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/parse.py
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/tokenize.py
+
+fixed issue #17 - 2.x print statments dont work
+------------------------------------------------------------------------
