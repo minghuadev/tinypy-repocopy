@@ -309,3 +309,11 @@ Changed paths:
 
 merging reorg back into the trunk
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r17 | philhassey | 2008-05-02 15:18:53 +0000 (Fri, 02 May 2008) | 1 line
+Changed paths:
+   M /trunk/setup.py
+
+improved VS build script to dynamic link with libc
+------------------------------------------------------------------------
