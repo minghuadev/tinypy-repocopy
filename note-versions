@@ -1382,3 +1382,11 @@ Changed paths:
 
 replaced malloc with calloc to appease valgrind
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r117 | philhassey | 2008-09-07 05:00:12 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/tests.py
+
+fixed path of tinypy during t_boot test
+------------------------------------------------------------------------
