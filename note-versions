@@ -496,3 +496,12 @@ Changed paths:
 
 cleaned up data API a bit
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r33 | philhassey | 2008-05-20 03:12:25 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+
+improved setup.py to handle the clean argument
+------------------------------------------------------------------------
