@@ -520,3 +520,13 @@ Changed paths:
 
 renaming internal stuff for no good reason
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r35 | philhassey | 2008-05-20 03:47:34 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/modules/math/tests.py
+   M /trunk/setup.py
+
+added boot option to setup.py
+------------------------------------------------------------------------
