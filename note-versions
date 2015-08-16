@@ -114,3 +114,60 @@ Set up a code re-org branch so I can shuffle all the files around
 and apply a few patches without disturbing the trunk.
 
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r8 | philhassey | 2008-04-28 22:00:08 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   D /branches/reorg/BUGS.txt
+   M /branches/reorg/NOTES.txt
+   D /branches/reorg/TODO.txt
+   A /branches/reorg/build
+   M /branches/reorg/build.py
+   A /branches/reorg/buildwin.py
+   D /branches/reorg/builtins.c
+   D /branches/reorg/dict.c
+   A /branches/reorg/doc
+   D /branches/reorg/encode.py
+   A /branches/reorg/examples
+   A /branches/reorg/examples/julia.py (from /branches/reorg/julia.py:7)
+   A /branches/reorg/examples/tinypy-sdl.c (from /branches/reorg/tinypy-sdl.c:7)
+   D /branches/reorg/gc.c
+   D /branches/reorg/julia.py
+   A /branches/reorg/lib
+   D /branches/reorg/list.c
+   D /branches/reorg/misc.c
+   D /branches/reorg/ops.c
+   D /branches/reorg/parse.py
+   D /branches/reorg/py2bc.py
+   D /branches/reorg/string.c
+   A /branches/reorg/tests
+   A /branches/reorg/tests/test_tinypy.py (from /branches/reorg/tests.py:7)
+   D /branches/reorg/tests.py
+   A /branches/reorg/tinypy
+   A /branches/reorg/tinypy/boot.py
+   A /branches/reorg/tinypy/builtins.c (from /branches/reorg/builtins.c:7)
+   A /branches/reorg/tinypy/dict.c (from /branches/reorg/dict.c:7)
+   A /branches/reorg/tinypy/encode.py (from /branches/reorg/encode.py:7)
+   A /branches/reorg/tinypy/gc.c (from /branches/reorg/gc.c:7)
+   A /branches/reorg/tinypy/list.c (from /branches/reorg/list.c:7)
+   A /branches/reorg/tinypy/misc.c (from /branches/reorg/misc.c:7)
+   A /branches/reorg/tinypy/ops.c (from /branches/reorg/ops.c:7)
+   A /branches/reorg/tinypy/parse.py (from /branches/reorg/parse.py:7)
+   A /branches/reorg/tinypy/py2bc.py (from /branches/reorg/py2bc.py:7)
+   A /branches/reorg/tinypy/string.c (from /branches/reorg/string.c:7)
+   A /branches/reorg/tinypy/tokenize.py (from /branches/reorg/tokenize.py:7)
+   A /branches/reorg/tinypy/tp.c (from /branches/reorg/tp.c:7)
+   A /branches/reorg/tinypy/tp.h (from /branches/reorg/tp.h:7)
+   A /branches/reorg/tinypy/tpmain.c (from /branches/reorg/tpmain.c:7)
+   A /branches/reorg/tinypy/vm.c (from /branches/reorg/vm.c:7)
+   A /branches/reorg/tinypy/vmmain.c (from /branches/reorg/vmmain.c:7)
+   D /branches/reorg/tinypy-sdl.c
+   D /branches/reorg/tokenize.py
+   D /branches/reorg/tp.c
+   D /branches/reorg/tp.h
+   D /branches/reorg/tpmain.c
+   D /branches/reorg/vm.c
+   D /branches/reorg/vmmain.c
+
+basic structure of reorg, does not work yet
+------------------------------------------------------------------------
