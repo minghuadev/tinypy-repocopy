@@ -635,3 +635,12 @@ Changed paths:
 
 1.1 release tag
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r46 | kkowalczyk | 2008-05-23 02:26:07 +0000 (Fri, 23 May 2008) | 1 line
+Changed paths:
+   M /trunk/setup.py
+   M /trunk/tinypy/tp.h
+
+don't inline in msvc debug builds; now that tinypy handles inline internally, no need to handle it from setup.py
+------------------------------------------------------------------------
