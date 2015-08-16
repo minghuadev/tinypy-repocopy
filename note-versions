@@ -380,3 +380,14 @@ Changed paths:
 
 added some register leak tracking code
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r23 | philhassey | 2008-05-03 05:42:51 +0000 (Sat, 03 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/tp.h
+
+cleaned up encode.py so that registers are no longer leaked
+------------------------------------------------------------------------
