@@ -1530,3 +1530,11 @@ Changed paths:
 
 changed all uses of tp_raise in math and pygame modules.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r132 | ulfada | 2008-09-14 22:28:20 +0000 (Sun, 14 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/modules/math/math.c
+
+turned tab characters back into spaces
+------------------------------------------------------------------------
