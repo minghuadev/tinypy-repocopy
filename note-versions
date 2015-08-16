@@ -8,3 +8,36 @@ Changed paths:
 
 Initial directory structure.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r2 | philhassey | 2008-04-04 03:05:58 +0000 (Fri, 04 Apr 2008) | 1 line
+Changed paths:
+   A /trunk/BUGS.txt
+   A /trunk/LICENSE.txt
+   A /trunk/NOTES.txt
+   A /trunk/README.txt
+   A /trunk/TODO.txt
+   A /trunk/build.py
+   A /trunk/builtins.c
+   A /trunk/dict.c
+   A /trunk/encode.py
+   A /trunk/gc.c
+   A /trunk/julia.py
+   A /trunk/list.c
+   A /trunk/misc.c
+   A /trunk/mk64k.py
+   A /trunk/ops.c
+   A /trunk/parse.py
+   A /trunk/py2bc.py
+   A /trunk/string.c
+   A /trunk/tests.py
+   A /trunk/tinypy-sdl.c
+   A /trunk/tokenize.py
+   A /trunk/tp.c
+   A /trunk/tp.h
+   A /trunk/tpmain.c
+   A /trunk/vm.c
+   A /trunk/vmmain.c
+
+initial import of goodies
+------------------------------------------------------------------------
