@@ -1451,3 +1451,20 @@ Changed paths:
 
 removed names from code, so folks won't be afraid to contribute
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r125 | philhassey | 2008-09-13 20:53:12 +0000 (Sat, 13 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/builtins.c
+   M /branches/sandbox/tinypy/dict.c
+   M /branches/sandbox/tinypy/gc.c
+   M /branches/sandbox/tinypy/list.c
+   M /branches/sandbox/tinypy/ops.c
+   M /branches/sandbox/tinypy/sandbox.c
+   M /branches/sandbox/tinypy/string.c
+   M /branches/sandbox/tinypy/tests.py
+   M /branches/sandbox/tinypy/tp.h
+   M /branches/sandbox/tinypy/vm.c
+
+removed all TP_CSTR and changed usage of TP_STR through whole sandbox.  These functions depended upon null-terminated strings, which cant be guaranteed in tinypy.
+------------------------------------------------------------------------
