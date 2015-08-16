@@ -1414,3 +1414,11 @@ Changed paths:
 
 cleaned up sloppy t_api test cases not returning in non-void functions
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r121 | philhassey | 2008-09-07 06:34:34 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/tests.py
+
+made t_asm tests more verbose
+------------------------------------------------------------------------
