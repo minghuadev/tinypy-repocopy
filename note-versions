@@ -1390,3 +1390,11 @@ Changed paths:
 
 fixed path of tinypy during t_boot test
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r118 | denis.kasak | 2008-09-07 06:01:20 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/cpython/cpython.c
+
+Fixing line endings and setting svn:eol-style for cpython/cpython.c
+------------------------------------------------------------------------
