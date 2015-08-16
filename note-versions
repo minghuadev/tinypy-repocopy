@@ -75,3 +75,11 @@ Changed paths:
 
 1.0.0 release tag
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r4 | philhassey | 2008-04-24 03:00:42 +0000 (Thu, 24 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/vm.c
+
+cleanup of tp_builtins to save 2 bytes of code and several k of executable size
+------------------------------------------------------------------------
