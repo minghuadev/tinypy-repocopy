@@ -1226,3 +1226,11 @@ Changed paths:
 
 Fixed setup.py to include the sandbox when building The Blob (tm).
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r99 | denis.kasak | 2008-08-19 02:31:57 +0000 (Tue, 19 Aug 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+Rearranged setup.py to separate the 'platform' from the 'command' (i.e. the thing we're building)
+------------------------------------------------------------------------
