@@ -1150,3 +1150,11 @@ Changed paths:
 
 commit modules/random
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r91 | denis.kasak | 2008-08-03 07:00:38 +0000 (Sun, 03 Aug 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/tests.py
+
+Added tests for various bugs (infinite inheritance lookup and out-of-bounds bugs).
+------------------------------------------------------------------------
