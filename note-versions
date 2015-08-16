@@ -1357,3 +1357,11 @@ Changed paths:
 
 Changed calls from do_cmd() to py2bc() in setup.py where appropriate (so *.tpc files don't get rebuilt if it's not needed).
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r114 | denis.kasak | 2008-09-07 04:29:27 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/cpython/cpython.c
+
+Fixed argument validation for CPython module functions and added support for keyword arguments.
+------------------------------------------------------------------------
