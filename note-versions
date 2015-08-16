@@ -1172,3 +1172,16 @@ if "tinypy" in sys.version
 to check if the current inerpreter is tinypy, at runtime.
 
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r93 | allefant | 2008-08-03 15:21:14 +0000 (Sun, 03 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/examples/julia.py
+   M /trunk/tinypy/disasm.py
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/parse.py
+   M /trunk/tinypy/py2bc.py
+
+Replaced "." in 1.0 checks with "tinypy" in sys.version.
+
+------------------------------------------------------------------------
