@@ -1002,3 +1002,12 @@ Changed paths:
 
 Added the tinypy assembler and disassembler, and related assembly tests to tests.py
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r76 | denis.kasak | 2008-07-08 13:12:39 +0000 (Tue, 08 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/asm.py
+   M /trunk/tinypy/disasm.py
+
+Added missing svn:eol-style properties on tinypy\asm.py and tinypy\disasm.py
+------------------------------------------------------------------------
