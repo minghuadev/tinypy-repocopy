@@ -1086,3 +1086,21 @@ Changed paths:
 Added a new XOR opcode, new ^ and ^= operators, and |= and &= operators, so the set of tinypy operators gets more similar to that of Python. Addresses issue #21.
 
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r85 | denis.kasak | 2008-07-21 17:02:41 +0000 (Mon, 21 Jul 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/builtins.c
+   M /branches/sandbox/tinypy/dict.c
+   M /branches/sandbox/tinypy/gc.c
+   M /branches/sandbox/tinypy/list.c
+   M /branches/sandbox/tinypy/misc.c
+   A /branches/sandbox/tinypy/sandbox.c
+   M /branches/sandbox/tinypy/string.c
+   M /branches/sandbox/tinypy/tests.py
+   M /branches/sandbox/tinypy/tp.c
+   M /branches/sandbox/tinypy/tp.h
+   M /branches/sandbox/tinypy/vm.c
+
+Added the memory limit.
+------------------------------------------------------------------------
