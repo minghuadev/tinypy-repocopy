@@ -772,3 +772,13 @@ Changed paths:
 
 Documentation update.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r58 | philhassey | 2008-06-20 15:33:23 +0000 (Fri, 20 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/tests.py
+
+resolved Issue 19-Multiplying a string with a negative value crashes tinypy
+------------------------------------------------------------------------
