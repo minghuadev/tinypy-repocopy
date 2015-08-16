@@ -1139,3 +1139,14 @@ Changed paths:
 
 Applied part of patch from issue 24 using abort() instead of exit(-1) in _tp_raise when there's no handler - only consequence should be that now when run in gdb and an uncaught exception is thrown, you can examine the C stack instead of getting a clean program exit
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r90 | ybc2084 | 2008-08-01 09:48:13 +0000 (Fri, 01 Aug 2008) | 1 line
+Changed paths:
+   A /trunk/modules/random
+   A /trunk/modules/random/init.c
+   A /trunk/modules/random/random.c
+   A /trunk/modules/random/tests.py
+
+commit modules/random
+------------------------------------------------------------------------
