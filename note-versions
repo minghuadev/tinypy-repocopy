@@ -179,3 +179,11 @@ Changed paths:
 
 added CHANGES.txt file listing who notable patches
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r10 | philhassey | 2008-04-28 23:00:18 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   A /branches/reorg/ROADMAP.txt
+
+added a roadmap so we know where we are going
+------------------------------------------------------------------------
