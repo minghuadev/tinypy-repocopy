@@ -1,0 +1,29 @@
+
+
+svn checkout http://tinypy.googlecode.com/svn tinypy-googlecode
+
+
+then create git repo in tinypy-git and run note-run-copy.sh 
+above the two directories to checkout from googlecode and 
+commit to tinypy-git. 
+
+
+
+the last svn revision info
+
+$ svn info
+Path: .
+Working Copy Root Path: /home/.../tinypy-googlecode
+URL: http://tinypy.googlecode.com/svn
+Relative URL: ^/
+Repository Root: http://tinypy.googlecode.com/svn
+Repository UUID: c0c488f3-8e49-0410-9d99-171a865aaac7
+Revision: 148
+Node Kind: directory
+Schedule: normal
+Last Changed Author: ybc2084
+Last Changed Rev: 148
+Last Changed Date: 2009-11-11 11:01:44 +0000 (Wed, 11 Nov 2009)
+
+
+
