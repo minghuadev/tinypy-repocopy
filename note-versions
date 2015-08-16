@@ -1255,3 +1255,11 @@ Changed paths:
 
 Added the CPython tinypy module to the tree. Build with 'python setup.py cpython_build <platform>
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r102 | denis.kasak | 2008-08-19 03:19:04 +0000 (Tue, 19 Aug 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+Fixed some dependecies in setup.py (the blob couldn't be built without first building a plain tinypy).
+------------------------------------------------------------------------
