@@ -100,3 +100,17 @@ Changed paths:
 
 applied patch by Dean Hall to fix several range() bugs - issues #2 and #5
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r7 | philhassey | 2008-04-28 20:25:22 +0000 (Mon, 28 Apr 2008) | 3 lines
+Changed paths:
+   A /branches/reorg (from /trunk:3)
+   R /branches/reorg/build.py (from /trunk/build.py:5)
+   R /branches/reorg/builtins.c (from /trunk/builtins.c:6)
+   R /branches/reorg/tests.py (from /trunk/tests.py:6)
+   R /branches/reorg/vm.c (from /trunk/vm.c:4)
+
+Set up a code re-org branch so I can shuffle all the files around
+and apply a few patches without disturbing the trunk.
+
+------------------------------------------------------------------------
