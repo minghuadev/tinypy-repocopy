@@ -391,3 +391,11 @@ Changed paths:
 
 cleaned up encode.py so that registers are no longer leaked
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r24 | philhassey | 2008-05-03 06:22:26 +0000 (Sat, 03 May 2008) | 1 line
+Changed paths:
+   M /trunk/setup.py
+
+fixed setup.py to include -nopos when in production mode
+------------------------------------------------------------------------
