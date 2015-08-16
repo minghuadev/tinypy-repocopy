@@ -1582,3 +1582,11 @@ Changed paths:
 
 replaced a TP_CSTR call in cpython.c and changed tp_eval to take the second argument as const
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r136 | denis.kasak | 2008-09-23 17:08:00 +0000 (Tue, 23 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/cpython/cpython.c
+
+CPython: Made the tinypy.Tinypy object properly deallocate itself.
+------------------------------------------------------------------------
