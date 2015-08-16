@@ -1365,3 +1365,12 @@ Changed paths:
 
 Fixed argument validation for CPython module functions and added support for keyword arguments.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r115 | philhassey | 2008-09-07 04:45:27 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/builtins.c
+   M /branches/sandbox/tinypy/tests.py
+
+stop infinite lookup after 8 tries
+------------------------------------------------------------------------
