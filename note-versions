@@ -344,3 +344,23 @@ Changed paths:
 
 trimmed 1064 bytes by changing tokens from dicts to classes in tokenize, parse, encode modules
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r20 | philhassey | 2008-05-03 01:04:34 +0000 (Sat, 03 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/gc.c
+   M /trunk/tinypy/list.c
+   M /trunk/tinypy/misc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tp.c
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/tpmain.c
+   M /trunk/tinypy/vm.c
+
+applied patch by Seth Lemons to give us -std=c89 support
+------------------------------------------------------------------------
