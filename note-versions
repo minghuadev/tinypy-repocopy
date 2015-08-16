@@ -1185,3 +1185,12 @@ Changed paths:
 Replaced "." in 1.0 checks with "tinypy" in sys.version.
 
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r94 | denis.kasak | 2008-08-04 14:39:21 +0000 (Mon, 04 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/tests.py
+
+Added support for class variables.
+------------------------------------------------------------------------
