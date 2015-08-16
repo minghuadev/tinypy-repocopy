@@ -1202,3 +1202,11 @@ Changed paths:
 
 Removed superfluous semicolons from tests.py that were added by accident.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r96 | ybc2084 | 2008-08-05 09:38:28 +0000 (Tue, 05 Aug 2008) | 1 line
+Changed paths:
+   A /trunk/examples/vines.py
+
+Add vines(an app from xscreensaver), require both math, random and pygame modules. Only tested under WinXP. Use class data member.
+------------------------------------------------------------------------
