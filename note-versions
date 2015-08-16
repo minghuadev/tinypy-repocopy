@@ -991,3 +991,14 @@ Changed paths:
 
 Edited wiki page through web user interface.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r75 | denis.kasak | 2008-07-08 04:18:53 +0000 (Tue, 08 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/setup.py
+   A /trunk/tinypy/asm.py
+   A /trunk/tinypy/disasm.py
+   M /trunk/tinypy/tests.py
+
+Added the tinypy assembler and disassembler, and related assembly tests to tests.py
+------------------------------------------------------------------------
