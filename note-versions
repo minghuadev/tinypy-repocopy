@@ -171,3 +171,11 @@ Changed paths:
 
 basic structure of reorg, does not work yet
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r9 | philhassey | 2008-04-28 22:42:36 +0000 (Mon, 28 Apr 2008) | 1 line
+Changed paths:
+   A /branches/reorg/CHANGES.txt
+
+added CHANGES.txt file listing who notable patches
+------------------------------------------------------------------------
