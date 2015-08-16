@@ -1672,3 +1672,11 @@ Changed paths:
 
 add re module for tinypy, compatible with cpython as much as possible
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r145 | ybc2084 | 2009-04-29 06:13:28 +0000 (Wed, 29 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/examples/asteroid.py
+
+yet another example for tinypy. math, random, and pygame modules are required
+------------------------------------------------------------------------
