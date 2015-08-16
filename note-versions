@@ -1660,3 +1660,15 @@ Changed paths:
 
 cleaned up some of the strings code
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r144 | ybc2084 | 2009-04-20 16:23:22 +0000 (Mon, 20 Apr 2009) | 1 line
+Changed paths:
+   A /trunk/modules/re
+   A /trunk/modules/re/init.c
+   A /trunk/modules/re/regexpr.c
+   A /trunk/modules/re/tests.py
+   A /trunk/modules/re/testsuite.py
+
+add re module for tinypy, compatible with cpython as much as possible
+------------------------------------------------------------------------
