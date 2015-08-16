@@ -364,3 +364,11 @@ Changed paths:
 
 applied patch by Seth Lemons to give us -std=c89 support
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r21 | philhassey | 2008-05-03 01:11:55 +0000 (Sat, 03 May 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/tp.h
+
+fixed c89 tweaks to work with VS
+------------------------------------------------------------------------
