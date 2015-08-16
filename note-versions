@@ -1243,3 +1243,15 @@ Changed paths:
 
 Fixed issue #20, string multiplications being non-commutative.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r101 | denis.kasak | 2008-08-19 03:04:19 +0000 (Tue, 19 Aug 2008) | 1 line
+Changed paths:
+   A /branches/sandbox/modules/cpython
+   A /branches/sandbox/modules/cpython/cpython.c
+   A /branches/sandbox/modules/cpython/setup.py
+   M /branches/sandbox/tinypy/tp.h
+   M /branches/sandbox/tinypy/vm.c
+
+Added the CPython tinypy module to the tree. Build with 'python setup.py cpython_build <platform>
+------------------------------------------------------------------------
