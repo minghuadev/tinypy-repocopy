@@ -399,3 +399,12 @@ Changed paths:
 
 fixed setup.py to include -nopos when in production mode
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r25 | philhassey | 2008-05-05 19:13:09 +0000 (Mon, 05 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/tests.py
+
+patch by KK to improve tinypy/tests.py feedback
+------------------------------------------------------------------------
