@@ -1316,3 +1316,12 @@ Changed paths:
 
 changed setup.py as described in http://code.google.com/p/tinypy/issues/detail?id=28
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r109 | ulfada | 2008-09-06 21:14:29 +0000 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   A /branches/sandbox/cpython
+   A /branches/sandbox/cpython/cpython.c
+
+changed setup.py as described in http://code.google.com/p/tinypy/issues/detail?id=28
+------------------------------------------------------------------------
