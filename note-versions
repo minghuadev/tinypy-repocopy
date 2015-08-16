@@ -708,3 +708,14 @@ Changed paths:
 
 Removed outdated comment about out-of-namespace symbols which are namespaced by now.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r52 | allefant | 2008-06-10 14:24:10 +0000 (Tue, 10 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/misc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+Added naturaldocs parse-able comments to a few random functions.
+------------------------------------------------------------------------
