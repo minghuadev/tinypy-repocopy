@@ -1502,3 +1502,14 @@ Changed paths:
 
 removed a spelling mistake
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r129 | philhassey | 2008-09-14 03:35:15 +0000 (Sun, 14 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/string.c
+   M /branches/sandbox/tinypy/tests.py
+   M /branches/sandbox/tinypy/tp.h
+   M /branches/sandbox/tinypy/vm.c
+
+fixed issue 27 - bytecode getting GCed
+------------------------------------------------------------------------
