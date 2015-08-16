@@ -598,3 +598,13 @@ Changed paths:
 
 fixed tp_data.magic initialization
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r42 | philhassey | 2008-05-21 21:08:41 +0000 (Wed, 21 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tests.py
+
+applied ord patch from allefant
+------------------------------------------------------------------------
