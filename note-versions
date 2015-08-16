@@ -554,3 +554,13 @@ Changed paths:
 
 applied const correctness patch by allefant
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r38 | philhassey | 2008-05-20 04:56:00 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/list.c
+
+fixed memory leak in list and dict copy functions
+------------------------------------------------------------------------
