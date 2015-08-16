@@ -538,3 +538,19 @@ Changed paths:
 
 cleaned up setup.py help
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r37 | philhassey | 2008-05-20 04:19:20 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/list.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+applied const correctness patch by allefant
+------------------------------------------------------------------------
