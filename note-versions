@@ -1121,3 +1121,13 @@ Changed paths:
 
 Fixed -Wc++-compat issues.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r88 | denis.kasak | 2008-07-25 08:51:37 +0000 (Fri, 25 Jul 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tests.py
+
+Fixed tp_print() and tp_strip() not to break on NUL chars inside strings. Resolves issue #18.
+------------------------------------------------------------------------
