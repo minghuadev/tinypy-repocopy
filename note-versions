@@ -331,3 +331,16 @@ Changed paths:
 
 added support for from x import *
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r19 | philhassey | 2008-05-02 22:30:26 +0000 (Fri, 02 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/boot.py
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/parse.py
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/tokenize.py
+
+trimmed 1064 bytes by changing tokens from dicts to classes in tokenize, parse, encode modules
+------------------------------------------------------------------------
