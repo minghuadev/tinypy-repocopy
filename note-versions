@@ -1308,3 +1308,11 @@ Changed paths:
 
 resolved bug #16 - UnboundLocalError not properly handled
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r108 | ulfada | 2008-09-06 21:13:33 +0000 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+changed setup.py as described in http://code.google.com/p/tinypy/issues/detail?id=28
+------------------------------------------------------------------------
