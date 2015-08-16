@@ -1422,3 +1422,11 @@ Changed paths:
 
 made t_asm tests more verbose
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r122 | philhassey | 2008-09-07 07:11:51 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/encode.py
+
+changed register leak from an exception to a warning, since it is a non-critial issue
+------------------------------------------------------------------------
