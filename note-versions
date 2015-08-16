@@ -1521,3 +1521,12 @@ Changed paths:
 
 fixed an issue causing setup to never execute module tests.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r131 | ulfada | 2008-09-14 17:08:37 +0000 (Sun, 14 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/modules/math/math.c
+   M /branches/sandbox/modules/pygame/init.c
+
+changed all uses of tp_raise in math and pygame modules.
+------------------------------------------------------------------------
