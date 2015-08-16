@@ -210,3 +210,17 @@ Changed paths:
 
 re-adding tests.py to the tinypy folder
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r13 | philhassey | 2008-05-01 23:11:02 +0000 (Thu, 01 May 2008) | 1 line
+Changed paths:
+   M /branches/reorg/CHANGES.txt
+   M /branches/reorg/ROADMAP.txt
+   A /branches/reorg/build
+   D /branches/reorg/build.py
+   D /branches/reorg/buildwin.py
+   D /branches/reorg/mk64k.py
+   M /branches/reorg/setup.py
+
+merging build* and mk64k into setup.py
+------------------------------------------------------------------------
