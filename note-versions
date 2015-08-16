@@ -1638,3 +1638,12 @@ Changed paths:
 
 added flag to setup.py so that the sandbox feature is option.  This gives a ~10% speedup if you do not need the sandbox.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r142 | philhassey | 2009-01-28 16:55:12 +0000 (Wed, 28 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tests.py
+
+fixed segfault during string split
+------------------------------------------------------------------------
