@@ -317,3 +317,17 @@ Changed paths:
 
 improved VS build script to dynamic link with libc
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r18 | philhassey | 2008-05-02 21:02:43 +0000 (Fri, 02 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/parse.py
+   M /trunk/tinypy/py2bc.py
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/tokenize.py
+   M /trunk/tinypy/vm.c
+
+added support for from x import *
+------------------------------------------------------------------------
