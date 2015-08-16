@@ -429,3 +429,12 @@ Changed paths:
 
 applied patch by allenfant to finish namespacing tinypy
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r27 | philhassey | 2008-05-06 15:25:31 +0000 (Tue, 06 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+
+applied patch by allefant to keep blob->tinypy.h from having warnings
+------------------------------------------------------------------------
