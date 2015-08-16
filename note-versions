@@ -224,3 +224,19 @@ Changed paths:
 
 merging build* and mk64k into setup.py
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r14 | philhassey | 2008-05-02 01:21:54 +0000 (Fri, 02 May 2008) | 1 line
+Changed paths:
+   M /branches/reorg/CHANGES.txt
+   M /branches/reorg/ROADMAP.txt
+   D /branches/reorg/contrib
+   M /branches/reorg/examples/julia.py
+   D /branches/reorg/examples/tinypy-sdl.c
+   A /branches/reorg/modules
+   A /branches/reorg/modules/pygame.c
+   M /branches/reorg/setup.py
+   M /branches/reorg/tinypy/tpmain.c
+
+further reorganization, added crude pygame module
+------------------------------------------------------------------------
