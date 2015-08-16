@@ -1158,3 +1158,17 @@ Changed paths:
 
 Added tests for various bugs (infinite inheritance lookup and out-of-bounds bugs).
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r92 | allefant | 2008-08-03 15:01:46 +0000 (Sun, 03 Aug 2008) | 6 lines
+Changed paths:
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/vm.c
+
+Added support for sys.version. You can now use:
+
+if "tinypy" in sys.version
+
+to check if the current inerpreter is tinypy, at runtime.
+
+------------------------------------------------------------------------
