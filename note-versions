@@ -1349,3 +1349,11 @@ Changed paths:
 
 Added checks for return values of CPython C API functions.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r113 | denis.kasak | 2008-09-07 03:29:56 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+Changed calls from do_cmd() to py2bc() in setup.py where appropriate (so *.tpc files don't get rebuilt if it's not needed).
+------------------------------------------------------------------------
