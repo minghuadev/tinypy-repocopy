@@ -1263,3 +1263,12 @@ Changed paths:
 
 Fixed some dependecies in setup.py (the blob couldn't be built without first building a plain tinypy).
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r103 | philhassey | 2008-09-06 03:25:31 +0000 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/tests.py
+
+fix for bug 22 - reg leak
+------------------------------------------------------------------------
