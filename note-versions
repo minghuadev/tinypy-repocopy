@@ -83,3 +83,11 @@ Changed paths:
 
 cleanup of tp_builtins to save 2 bytes of code and several k of executable size
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r5 | philhassey | 2008-04-24 04:46:37 +0000 (Thu, 24 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/build.py
+
+added -compat flag
+------------------------------------------------------------------------
