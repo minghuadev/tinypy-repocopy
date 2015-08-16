@@ -608,3 +608,13 @@ Changed paths:
 
 applied ord patch from allefant
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r43 | philhassey | 2008-05-21 22:07:28 +0000 (Wed, 21 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/modules/math/tests.py
+   M /trunk/setup.py
+
+fixed mingw build
+------------------------------------------------------------------------
