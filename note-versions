@@ -1430,3 +1430,16 @@ Changed paths:
 
 changed register leak from an exception to a warning, since it is a non-critial issue
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r123 | philhassey | 2008-09-13 18:11:53 +0000 (Sat, 13 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/asm.py
+   M /branches/sandbox/tinypy/builtins.c
+   M /branches/sandbox/tinypy/gc.c
+   M /branches/sandbox/tinypy/ops.c
+   M /branches/sandbox/tinypy/string.c
+   M /branches/sandbox/tinypy/tp.h
+
+made TP_CSTR more strict, adjusted slicing code
+------------------------------------------------------------------------
