@@ -589,3 +589,12 @@ Changed paths:
 
 got it compiling with -Wc++-compat
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r41 | philhassey | 2008-05-21 15:25:49 +0000 (Wed, 21 May 2008) | 1 line
+Changed paths:
+   M /trunk/modules/pygame/init.c
+   M /trunk/tinypy/misc.c
+
+fixed tp_data.magic initialization
+------------------------------------------------------------------------
