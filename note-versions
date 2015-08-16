@@ -1600,3 +1600,11 @@ Changed paths:
 
 Made tinypy memory functions and CPython module internally use unsigned long for representing size of alloc'ed memory.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r138 | denis.kasak | 2008-09-23 17:18:14 +0000 (Tue, 23 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/cpython/cpython.c
+
+CPython: Fixed format specifier of PyArg_ParseTupleAndKeywords() to account for switch to unsigned long.
+------------------------------------------------------------------------
