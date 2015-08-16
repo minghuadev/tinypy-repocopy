@@ -1513,3 +1513,11 @@ Changed paths:
 
 fixed issue 27 - bytecode getting GCed
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r130 | ulfada | 2008-09-14 07:56:00 +0000 (Sun, 14 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+fixed an issue causing setup to never execute module tests.
+------------------------------------------------------------------------
