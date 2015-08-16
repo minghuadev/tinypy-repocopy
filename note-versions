@@ -1406,3 +1406,11 @@ Changed paths:
 
 Fixing tests.py on Windows (forward slashes were used as directory separators).
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r120 | philhassey | 2008-09-07 06:31:39 +0000 (Sun, 07 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/tests.py
+
+cleaned up sloppy t_api test cases not returning in non-void functions
+------------------------------------------------------------------------
