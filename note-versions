@@ -505,3 +505,18 @@ Changed paths:
 
 improved setup.py to handle the clean argument
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r34 | philhassey | 2008-05-20 03:30:42 +0000 (Tue, 20 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/gc.c
+   M /trunk/tinypy/misc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+renaming internal stuff for no good reason
+------------------------------------------------------------------------
