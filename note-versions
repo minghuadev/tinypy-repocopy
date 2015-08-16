@@ -1112,3 +1112,12 @@ Changed paths:
 
 Set svn:eol-style on tinypy/sandbox.c
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r87 | denis.kasak | 2008-07-24 22:17:20 +0000 (Thu, 24 Jul 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/tinypy/sandbox.c
+   M /branches/sandbox/tinypy/tp.h
+
+Fixed -Wc++-compat issues.
+------------------------------------------------------------------------
