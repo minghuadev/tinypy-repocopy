@@ -1194,3 +1194,11 @@ Changed paths:
 
 Added support for class variables.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r95 | denis.kasak | 2008-08-04 14:40:35 +0000 (Mon, 04 Aug 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/tests.py
+
+Removed superfluous semicolons from tests.py that were added by accident.
+------------------------------------------------------------------------
