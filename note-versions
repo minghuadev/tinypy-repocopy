@@ -734,3 +734,16 @@ Changed paths:
 
 updated meta method support
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r54 | allefant | 2008-06-18 17:09:32 +0000 (Wed, 18 Jun 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/misc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+documentation update
+------------------------------------------------------------------------
