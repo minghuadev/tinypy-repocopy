@@ -1647,3 +1647,16 @@ Changed paths:
 
 fixed segfault during string split
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r143 | philhassey | 2009-01-29 03:38:31 +0000 (Thu, 29 Jan 2009) | 1 line
+Changed paths:
+   M /trunk/tinypy/gc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/py2bc.py
+   M /trunk/tinypy/sandbox.c
+   M /trunk/tinypy/string.c
+   M /trunk/tinypy/tp.h
+
+cleaned up some of the strings code
+------------------------------------------------------------------------
