@@ -91,3 +91,12 @@ Changed paths:
 
 added -compat flag
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r6 | philhassey | 2008-04-26 00:11:55 +0000 (Sat, 26 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/builtins.c
+   M /trunk/tests.py
+
+applied patch by Dean Hall to fix several range() bugs - issues #2 and #5
+------------------------------------------------------------------------
