@@ -782,3 +782,12 @@ Changed paths:
 
 resolved Issue 19-Multiplying a string with a negative value crashes tinypy
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r59 | allefant | 2008-06-20 16:09:06 +0000 (Fri, 20 Jun 2008) | 1 line
+Changed paths:
+   A /wiki
+   A /wiki/index.wiki
+
+Created wiki page through web user interface.
+------------------------------------------------------------------------
