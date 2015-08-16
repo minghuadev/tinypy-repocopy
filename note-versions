@@ -1443,3 +1443,11 @@ Changed paths:
 
 made TP_CSTR more strict, adjusted slicing code
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r124 | philhassey | 2008-09-13 18:13:39 +0000 (Sat, 13 Sep 2008) | 1 line
+Changed paths:
+   M /branches/sandbox/setup.py
+
+removed names from code, so folks won't be afraid to contribute
+------------------------------------------------------------------------
