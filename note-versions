@@ -1573,3 +1573,12 @@ Changed paths:
 
 updated random module to meet new specifications
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r135 | ulfada | 2008-09-17 15:44:15 +0000 (Wed, 17 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/cpython/cpython.c
+   M /trunk/tinypy/vm.c
+
+replaced a TP_CSTR call in cpython.c and changed tp_eval to take the second argument as const
+------------------------------------------------------------------------
