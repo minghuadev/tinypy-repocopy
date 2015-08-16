@@ -1299,3 +1299,12 @@ Changed paths:
 
 fixed issue #17 - 2.x print statments dont work
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r107 | philhassey | 2008-09-06 19:59:50 +0000 (Sat, 06 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/tests.py
+
+resolved bug #16 - UnboundLocalError not properly handled
+------------------------------------------------------------------------
