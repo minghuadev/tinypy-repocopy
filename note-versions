@@ -202,3 +202,11 @@ Changed paths:
 
 reorganizing the layout
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r12 | philhassey | 2008-04-30 05:59:51 +0000 (Wed, 30 Apr 2008) | 1 line
+Changed paths:
+   A /branches/reorg/tinypy/tests.py
+
+re-adding tests.py to the tinypy folder
+------------------------------------------------------------------------
