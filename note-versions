@@ -187,3 +187,18 @@ Changed paths:
 
 added a roadmap so we know where we are going
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r11 | philhassey | 2008-04-30 05:59:03 +0000 (Wed, 30 Apr 2008) | 1 line
+Changed paths:
+   D /branches/reorg/build
+   A /branches/reorg/contrib
+   D /branches/reorg/lib
+   A /branches/reorg/setup.py
+   D /branches/reorg/tests
+   M /branches/reorg/tinypy/boot.py
+   M /branches/reorg/tinypy/encode.py
+   M /branches/reorg/tinypy/py2bc.py
+
+reorganizing the layout
+------------------------------------------------------------------------
