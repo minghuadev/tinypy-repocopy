@@ -644,3 +644,22 @@ Changed paths:
 
 don't inline in msvc debug builds; now that tinypy handles inline internally, no need to handle it from setup.py
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r47 | philhassey | 2008-05-24 21:34:17 +0000 (Sat, 24 May 2008) | 1 line
+Changed paths:
+   M /trunk/CHANGES.txt
+   M /trunk/setup.py
+   M /trunk/tinypy/builtins.c
+   M /trunk/tinypy/dict.c
+   M /trunk/tinypy/encode.py
+   M /trunk/tinypy/gc.c
+   M /trunk/tinypy/ops.c
+   M /trunk/tinypy/py2bc.py
+   M /trunk/tinypy/tests.py
+   M /trunk/tinypy/tokenize.py
+   M /trunk/tinypy/tp.h
+   M /trunk/tinypy/vm.c
+
+meta patch applied
+------------------------------------------------------------------------
