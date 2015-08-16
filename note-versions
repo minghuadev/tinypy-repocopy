@@ -863,3 +863,51 @@ Changed paths:
 
 Edited wiki page through web user interface.
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r64 | allefant | 2008-06-22 12:11:07 +0000 (Sun, 22 Jun 2008) | 1 line
+Changed paths:
+   M /wiki/Builtins.wiki
+   M /wiki/Dict.wiki
+   M /wiki/General.wiki
+   M /wiki/Miscellaneous.wiki
+   M /wiki/Operations.wiki
+   M /wiki/String.wiki
+   M /wiki/TP_LOOP.wiki
+   M /wiki/VM.wiki
+   M /wiki/tp_bool.wiki
+   M /wiki/tp_call.wiki
+   M /wiki/tp_class.wiki
+   M /wiki/tp_compile.wiki
+   M /wiki/tp_data.wiki
+   M /wiki/tp_deinit.wiki
+   M /wiki/tp_del.wiki
+   M /wiki/tp_dict.wiki
+   M /wiki/tp_exec.wiki
+   M /wiki/tp_fnc.wiki
+   M /wiki/tp_get.wiki
+   M /wiki/tp_getraw.wiki
+   M /wiki/tp_has.wiki
+   M /wiki/tp_iget.wiki
+   M /wiki/tp_import.wiki
+   M /wiki/tp_init.wiki
+   M /wiki/tp_iter.wiki
+   M /wiki/tp_len.wiki
+   M /wiki/tp_number.wiki
+   M /wiki/tp_obj.wiki
+   M /wiki/tp_object.wiki
+   M /wiki/tp_params.wiki
+   M /wiki/tp_params_n.wiki
+   M /wiki/tp_params_v.wiki
+   M /wiki/tp_raise.wiki
+   M /wiki/tp_set.wiki
+   M /wiki/tp_setmeta.wiki
+   M /wiki/tp_str.wiki
+   M /wiki/tp_string.wiki
+   M /wiki/tp_string_n.wiki
+   M /wiki/tp_string_slice.wiki
+   M /wiki/tp_system.wiki
+   M /wiki/tp_vm.wiki
+
+doc: added backlinks to wiki pages
+------------------------------------------------------------------------
