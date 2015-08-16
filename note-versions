@@ -808,3 +808,50 @@ Changed paths:
 
 wiki documentation test
 ------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+r62 | allefant | 2008-06-22 12:02:03 +0000 (Sun, 22 Jun 2008) | 1 line
+Changed paths:
+   A /wiki/Builtins.wiki
+   A /wiki/Dict.wiki
+   A /wiki/General.wiki
+   A /wiki/Miscellaneous.wiki
+   A /wiki/Operations.wiki
+   A /wiki/String.wiki
+   A /wiki/TP_LOOP.wiki
+   A /wiki/VM.wiki
+   A /wiki/tp_bool.wiki
+   A /wiki/tp_call.wiki
+   A /wiki/tp_class.wiki
+   A /wiki/tp_compile.wiki
+   A /wiki/tp_data.wiki
+   A /wiki/tp_deinit.wiki
+   A /wiki/tp_del.wiki
+   A /wiki/tp_dict.wiki
+   A /wiki/tp_exec.wiki
+   A /wiki/tp_fnc.wiki
+   A /wiki/tp_get.wiki
+   A /wiki/tp_getraw.wiki
+   A /wiki/tp_has.wiki
+   A /wiki/tp_iget.wiki
+   A /wiki/tp_import.wiki
+   A /wiki/tp_init.wiki
+   A /wiki/tp_iter.wiki
+   A /wiki/tp_len.wiki
+   A /wiki/tp_number.wiki
+   A /wiki/tp_obj.wiki
+   A /wiki/tp_object.wiki
+   A /wiki/tp_params.wiki
+   A /wiki/tp_params_n.wiki
+   A /wiki/tp_params_v.wiki
+   A /wiki/tp_raise.wiki
+   A /wiki/tp_set.wiki
+   A /wiki/tp_str.wiki
+   A /wiki/tp_string.wiki
+   A /wiki/tp_string_n.wiki
+   A /wiki/tp_string_slice.wiki
+   A /wiki/tp_system.wiki
+   A /wiki/tp_vm.wiki
+
+moved all naturaldocs docs to the wiki
+------------------------------------------------------------------------
