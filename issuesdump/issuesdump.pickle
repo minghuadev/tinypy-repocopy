@@ -1,0 +1,3502 @@
+(lp0
+(dp1
+S'status'
+p2
+S'invalid'
+p3
+sS'body'
+p4
+S'What steps will reproduce the problem? 1. 2. 3. What is the expected output? What do you see instead? Please use labels and text to provide additional information.'
+p5
+sS'author'
+p6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p7
+sS'title'
+p8
+S'test234'
+p9
+sS'labels'
+p10
+(lp11
+S'imported'
+p12
+aS'Priority-Medium'
+p13
+aS'bug'
+p14
+aS'invalid'
+p15
+asS'comments'
+p16
+(lp17
+(dp18
+S'date'
+p19
+S'April 01, 2008 12:57:44'
+p20
+sg4
+V**Status:** Invalid  \u000a
+p21
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p22
+sasS'content'
+p23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on April 01, 2008 19:56:47_\u000a\u000aWhat steps will reproduce the problem? 1. 2. 3. What is the expected output? What do you see instead? Please use labels and text to provide additional information.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=1_
+p24
+sg19
+cdatetime
+datetime
+p25
+(S'\x07\xd8\x04\x01\x138/\x00\x00\x00'
+p26
+tp27
+Rp28
+sS'state'
+p29
+S'closed'
+p30
+sS'gid'
+p31
+I1
+sS'link'
+p32
+S'http://code.google.com/p/tinypy/issues/detail?id=1'
+p33
+sS'milestone'
+p34
+NsS'owner'
+p35
+S'philhas...@gmail.com'
+p36
+sa(dp37
+g2
+S'verified'
+p38
+sg4
+S'If one runs `print(range(10))`, tinypython will raise an:\r\n\r\nException:\r\ntp_get: KeyError: 0'
+p39
+sg6
+S'[Bailey.D.R@gmail.com](https://code.google.com/u/Bailey.D.R@gmail.com/)'
+p40
+sg8
+S'Range does not accept only one argument'
+p41
+sg10
+(lp42
+g12
+aS'Priority-Medium'
+p43
+ag14
+asg16
+(lp44
+(dp45
+g19
+S'April 21, 2008 22:17:35'
+p46
+sg4
+S'In current tinypy, range() can only accept restrict three arguments.'
+p47
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p48
+sa(dp49
+g19
+S'April 24, 2008 22:51:27'
+p50
+sg4
+S'I fixed this issue at the same time as issue #5 .  Please see the patch in issue #5 .'
+p51
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p52
+sa(dp53
+g19
+S'April 25, 2008 17:12:34'
+p54
+sg4
+V**Status:** Verified  \u000a
+p55
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p56
+sasg23
+V_From [Bailey.D.R@gmail.com](https://code.google.com/u/Bailey.D.R@gmail.com/) on April 05, 2008 22:48:51_\u000a\u000aIf one runs `print(range(10))`, tinypython will raise an:\u000a\u000aException:\u000atp_get: KeyError: 0\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=2_
+p57
+sg19
+g25
+(S'\x07\xd8\x04\x05\x1603\x00\x00\x00'
+p58
+tp59
+Rp60
+sg29
+g30
+sg31
+I2
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=2'
+p61
+sg34
+Nsg35
+S''
+p62
+sa(dp63
+g2
+S'fixed'
+p64
+sg4
+S'Native Visual Studio build would be nice. Attached is a patch that fixes\r\nall Visual Studio compilation problems (tested with VS 2005) and adds\r\nnative win build support to build.py\r\n\r\nThe fixes are many but rather trivial and mostly fall into 2 categories:\r\n* this is C code, so variables need to be defined at the beginning of the scope\r\n* vs doesn\'t like tp_obj iniatilizations in the form {TP_*, ...}, so they\r\nneed to be converted to more explicit "fill the object" approach'
+p65
+sg6
+S'[kkowalczyk@gmail.com](https://code.google.com/u/kkowalczyk@gmail.com/)'
+p66
+sg8
+S'Native Visual Studio build'
+p67
+sg10
+(lp68
+g12
+aS'Priority-Medium'
+p69
+aS'Type-Patch'
+p70
+asg16
+(lp71
+(dp72
+g19
+S'April 22, 2008 21:10:34'
+p73
+sg4
+V**Labels:** -Type-Defect Type-Patch  \u000a
+p74
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p75
+sa(dp76
+g19
+S'May 02, 2008 17:56:30'
+p77
+sg4
+V**Status:** Fixed  \u000a
+p78
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p79
+sasg23
+V_From [kkowalczyk@gmail.com](https://code.google.com/u/kkowalczyk@gmail.com/) on April 19, 2008 18:10:50_\u000a\u000aNative Visual Studio build would be nice. Attached is a patch that fixes\u000aall Visual Studio compilation problems (tested with VS 2005) and adds\u000anative win build support to build.py\u000a\u000aThe fixes are many but rather trivial and mostly fall into 2 categories:\u000a* this is C code, so variables need to be defined at the beginning of the scope\u000a* vs doesn't like tp_obj iniatilizations in the form {TP_*, ...}, so they\u000aneed to be converted to more explicit "fill the object" approach\u000a\u000a**Attachment:** [win32.patch](http://code.google.com/p/tinypy/issues/detail?id=3)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=3_
+p80
+sg19
+g25
+(S'\x07\xd8\x04\x13\x12\n2\x00\x00\x00'
+p81
+tp82
+Rp83
+sg29
+g30
+sg31
+I3
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=3'
+p84
+sg34
+Nsg35
+g62
+sa(dp85
+g2
+S'invalid'
+p86
+sg4
+S'It would be great if there exist windows binaries to download. So a user\r\ncan directly start playing with tinypy...'
+p87
+sg6
+S'[google-c...@jensdiemer.de](https://code.google.com/u/110247016830768358875/)'
+p88
+sg8
+S'Windows binaries...'
+p89
+sg10
+(lp90
+g12
+aS'Priority-Medium'
+p91
+ag14
+ag15
+asg16
+(lp92
+(dp93
+g19
+S'April 23, 2008 14:38:47'
+p94
+sg4
+Vhttp://www.tinypy.org/downloads.html Next release I will probably host them here as well.\u000a\u000a**Status:** Invalid  \u000a
+p95
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p96
+sasg23
+V_From [google-c...@jensdiemer.de](https://code.google.com/u/110247016830768358875/) on April 23, 2008 07:13:47_\u000a\u000aIt would be great if there exist windows binaries to download. So a user\u000acan directly start playing with tinypy...\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=4_
+p97
+sg19
+g25
+(S'\x07\xd8\x04\x17\x07\r/\x00\x00\x00'
+p98
+tp99
+Rp100
+sg29
+g30
+sg31
+I4
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=4'
+p101
+sg34
+Nsg35
+g62
+sa(dp102
+g2
+S'verified'
+p103
+sg4
+S'What steps will reproduce the problem? - Call range() with mischievous parameters:\r\n- range(0,1,0)\r\n- range(0,5,3) What is the expected output? What do you see instead? - Expect a valid list (maybe empty), instead vm consumes vast amounts of \r\nmemory as very long lists are built (can be an infinite loop until RAM is \r\nexhausted). What version of the product are you using? On what operating system? - r3 , Mac OS X / 10.4.11 / PPC. Please provide any additional information below. - Patch with unit tests and fix will be appended to this issue.'
+p104
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p105
+sg8
+S'Range misbehaves when step size is 0 or steps over the end value'
+p106
+sg10
+(lp107
+g12
+aS'Priority-Medium'
+p108
+ag14
+asg16
+(lp109
+(dp110
+g19
+S'April 24, 2008 22:50:21'
+p111
+sg4
+VI merged up to r5 , no conflicts.  I added code that will also fix issue #2 , allowing \u000arange() to take 1 arg.  Maillist discussion is here: http://groups.google.com/group/tinypy/browse_thread/thread/13418ffea7af6c21\u000a\u000a**Attachment:** [issue5.patch](http://code.google.com/p/tinypy/issues/detail?id=5#hc1)
+p112
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p113
+sa(dp114
+g19
+S'April 25, 2008 11:07:26'
+p115
+sg4
+VI grouped my range() unit tests into a function "test_range" in tests.py that is called \u000aby the default build; they all run w/o error.\u000a\u000a**Attachment:** [tinypy_r5_issue5_range.patch](http://code.google.com/p/tinypy/issues/detail?id=5#hc2)
+p116
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p117
+sa(dp118
+g19
+S'April 25, 2008 17:12:22'
+p119
+sg4
+V**Status:** Verified  \u000a
+p120
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p121
+sasg23
+V_From [dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/) on April 24, 2008 17:31:54_\u000a\u000aWhat steps will reproduce the problem? - Call range() with mischievous parameters:\u000a- range(0,1,0)\u000a- range(0,5,3) What is the expected output? What do you see instead? - Expect a valid list (maybe empty), instead vm consumes vast amounts of \u000amemory as very long lists are built (can be an infinite loop until RAM is \u000aexhausted). What version of the product are you using? On what operating system? - r3 , Mac OS X / 10.4.11 / PPC. Please provide any additional information below. - Patch with unit tests and fix will be appended to this issue.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=5_
+p122
+sg19
+g25
+(S'\x07\xd8\x04\x18\x11\x1f6\x00\x00\x00'
+p123
+tp124
+Rp125
+sg29
+g30
+sg31
+I5
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=5'
+p126
+sg34
+Nsg35
+g62
+sa(dp127
+g2
+S'verified'
+p128
+sg4
+S'Here\'s a test that reproduces the issue:\r\n\r\nt_render("def f():pass\\n"+("f();"*256)+"print(\'OK\')","OK")\r\n\r\nThere is no good reason for all the registers to run out in this example.'
+p129
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p130
+sg8
+S'The register allocator runs out of registers after too many function calls'
+p131
+sg10
+(lp132
+g12
+aS'Priority-Low'
+p133
+ag14
+asg16
+(lp134
+(dp135
+g19
+S'May 02, 2008 22:38:51'
+p136
+sg4
+V**Status:** Verified  \u000a
+p137
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p138
+sasg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on April 26, 2008 00:21:23_\u000a\u000aHere's a test that reproduces the issue:\u000a\u000at_render("def f():pass\u005cn"+("f();"*256)+"print('OK')","OK")\u000a\u000aThere is no good reason for all the registers to run out in this example.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=6_
+p139
+sg19
+g25
+(S'\x07\xd8\x04\x1a\x00\x15\x17\x00\x00\x00'
+p140
+tp141
+Rp142
+sg29
+g30
+sg31
+I6
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=6'
+p143
+sg34
+Nsg35
+g62
+sa(dp144
+g2
+S'verified'
+p145
+sg4
+S"What steps will reproduce the problem? 1. Compile a project which uses something like below (i.e. all of mine :P):\r\n\r\n#define True true\r\n#define False false\r\n#define None NULL\r\n\r\n2. Make use of tinypy with the tinypy.h created from the setup.py blob\r\n3. Compilation will fail What is the expected output? What do you see instead? Possibility to use my own symbols named True, False and None. What version of the product are you using? On what operating system? SVN trunk revision 16 . Linux. Please provide any additional information below. If this can't be easily fixed, I'd also be grateful for any possible\r\nworkarounds.. maybe some clever #define trick when including tinypy.h? Not\r\nbeing able to use these three symbols in my own code would be quite bad.."
+p146
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p147
+sg8
+S'True and False redefined'
+p148
+sg10
+(lp149
+g12
+aS'Priority-Medium'
+p150
+ag14
+asg16
+(lp151
+(dp152
+g19
+S'May 09, 2008 23:30:45'
+p153
+sg4
+V**Status:** Verified  \u000a
+p154
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p155
+sasg23
+V_From [allef...@gmail.com](https://code.google.com/u/105443856688108338371/) on May 03, 2008 16:07:08_\u000a\u000aWhat steps will reproduce the problem? 1. Compile a project which uses something like below (i.e. all of mine :P):\u000a\u000a#define True true\u000a#define False false\u000a#define None NULL\u000a\u000a2. Make use of tinypy with the tinypy.h created from the setup.py blob\u000a3. Compilation will fail What is the expected output? What do you see instead? Possibility to use my own symbols named True, False and None. What version of the product are you using? On what operating system? SVN trunk revision 16 . Linux. Please provide any additional information below. If this can't be easily fixed, I'd also be grateful for any possible\u000aworkarounds.. maybe some clever #define trick when including tinypy.h? Not\u000abeing able to use these three symbols in my own code would be quite bad..\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=7_
+p156
+sg19
+g25
+(S'\x07\xd8\x05\x03\x10\x07\x08\x00\x00\x00'
+p157
+tp158
+Rp159
+sg29
+g30
+sg31
+I7
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=7'
+p160
+sg34
+Nsg35
+g62
+sa(dp161
+g2
+S'verified'
+p162
+sg4
+S"What steps will reproduce the problem? print(2*3**2) What is the expected output? What do you see instead? 18 is expected, but the result produced by tp is 36. It means that tp\r\ninterprets 2*3**2 as (2*3)**2. But it's clear that ** has higher priority\r\nthan *, so 2*3**2 should be interpreted as 2*(3**2). I think any other\r\nexpression like this will come across the same problem. What version of the product are you using? On what operating system? tinypy svn revision 24 and 25. Please provide any additional information below. NA."
+p163
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p164
+sg8
+S'** operator priority problem'
+p165
+sg10
+(lp166
+g12
+aS'Priority-Medium'
+p167
+ag14
+asg16
+(lp168
+(dp169
+g19
+S'May 06, 2008 19:16:25'
+p170
+sg4
+Vadd a line in tests.py to reproduce this issue.\u000a\u000a**Attachment:** [tests.py](http://code.google.com/p/tinypy/issues/detail?id=8#hc1)
+p171
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p172
+sa(dp173
+g19
+S'May 09, 2008 23:34:54'
+p174
+sg4
+V**Status:** Verified  \u000a
+p175
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p176
+sasg23
+V_From [ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/) on May 07, 2008 01:21:01_\u000a\u000aWhat steps will reproduce the problem? print(2*3**2) What is the expected output? What do you see instead? 18 is expected, but the result produced by tp is 36. It means that tp\u000ainterprets 2*3**2 as (2*3)**2. But it's clear that ** has higher priority\u000athan *, so 2*3**2 should be interpreted as 2*(3**2). I think any other\u000aexpression like this will come across the same problem. What version of the product are you using? On what operating system? tinypy svn revision 24 and 25. Please provide any additional information below. NA.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=8_
+p177
+sg19
+g25
+(S'\x07\xd8\x05\x07\x01\x15\x01\x00\x00\x00'
+p178
+tp179
+Rp180
+sg29
+g30
+sg31
+I8
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=8'
+p181
+sg34
+Nsg35
+g62
+sa(dp182
+g2
+S'fixed'
+p183
+sg4
+S'My earlier patch to check for duplicated prototypes had a flaw for multiple\r\nfunctions starting with the same name - this patch fixes it.'
+p184
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p185
+sg8
+S'Patch: mistake in blob generator'
+p186
+sg10
+(lp187
+g12
+aS'Priority-Medium'
+p188
+ag14
+asg16
+(lp189
+(dp190
+g19
+S'May 19, 2008 07:34:24'
+p191
+sg4
+V**Status:** Fixed  \u000a
+p192
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p193
+sasg23
+V_From [allef...@gmail.com](https://code.google.com/u/105443856688108338371/) on May 10, 2008 16:19:23_\u000a\u000aMy earlier patch to check for duplicated prototypes had a flaw for multiple\u000afunctions starting with the same name - this patch fixes it.\u000a\u000a**Attachment:** [patch.diff](http://code.google.com/p/tinypy/issues/detail?id=9)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=9_
+p194
+sg19
+g25
+(S'\x07\xd8\x05\n\x10\x13\x17\x00\x00\x00'
+p195
+tp196
+Rp197
+sg29
+g30
+sg31
+I9
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=9'
+p198
+sg34
+Nsg35
+g62
+sa(dp199
+g2
+S'verified'
+p200
+sg4
+S"Here's a new patch to make the API const correct - but this time I\r\nidentified the one position where it's appropriate to cast away the\r\nconstness. I still made tp_string_.val const as it seemed the right thing\r\nto do."
+p201
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p202
+sg8
+S'const correctness patch'
+p203
+sg10
+(lp204
+g12
+aS'Priority-Medium'
+p205
+ag14
+asg16
+(lp206
+(dp207
+g19
+S'May 19, 2008 07:57:10'
+p208
+sg4
+S'Should o.string.info.s also be const?  Also, what compilation flag does this appease?\r\n Maybe add it into setup.py so we know what we\'re fixing.\r\n\r\nAlso, if I\'m understanding correctly, this patch is good because if you are coding\r\nsomething with #include "tinypy.c" and using some strict const flag, it will work,\r\nright?  Does it offer other benefits as well?  I\'d like to understand it as well as\r\npossible.'
+p209
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p210
+sa(dp211
+g19
+S'May 19, 2008 13:38:44'
+p212
+sg4
+S'It\'s just so I can use the -Wwrite-strings option with gcc when including tinypy.h in\r\nmy own code. I\'m compiling tinypy.c into a library, so I don\'t care about its const\r\ncorrectness too much as I can leave out the option there - just my own code has to\r\ninclude tinypy.h so it should have the "const"s :)\r\n\r\nAnd no, there\'s no other benefit as far as I know. A C compiler can do different\r\noptimizations sometimes when it knows a pointer cannot be used to modify the data it\r\npoints to, but I guess those cases are very rare.\r\n\r\nStill, seems most projects try to keep things const correct. E.g. the Python C API\r\nalso defines functions like this, with the const to indicate that the string you pass\r\nto the function will not be written to:\r\n\r\nPyObject* Py_BuildValue(const char *format, ...)'
+p213
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p214
+sa(dp215
+g19
+S'May 19, 2008 21:22:30'
+p216
+sg4
+VI've applied this patch.  I also made the few changes need in tinypy to make the\u000awhole thing compile with -Wwrite-strings, which I guess is good.\u000a\u000a**Status:** Verified  \u000a
+p217
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p218
+sasg23
+V_From [allef...@gmail.com](https://code.google.com/u/105443856688108338371/) on May 10, 2008 16:24:56_\u000a\u000aHere's a new patch to make the API const correct - but this time I\u000aidentified the one position where it's appropriate to cast away the\u000aconstness. I still made tp_string_.val const as it seemed the right thing\u000ato do.\u000a\u000a**Attachment:** [const_correctness_patch2.diff](http://code.google.com/p/tinypy/issues/detail?id=10)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=10_
+p219
+sg19
+g25
+(S'\x07\xd8\x05\n\x10\x188\x00\x00\x00'
+p220
+tp221
+Rp222
+sg29
+g30
+sg31
+I10
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=10'
+p223
+sg34
+Nsg35
+g62
+sa(dp224
+g2
+S'verified'
+p225
+sg4
+S'What steps will reproduce the problem? 1: def foo(x, **y):\r\n2:    print(x, y)\r\n3: foo(1) What is the expected output? What do you see instead? I would expect something like: 1 {}\r\nInstead, I get this misleading error:\r\n\r\nFile "a.py", line 3, in ?\r\n  foo(1)\r\nFile "a.py", line 1, in foo\r\n  def foo(x, **y):\r\n\r\nException:\r\ntp_get: KeyError: 0 What version of the product are you using? On what operating system? Revision 29 , Debian. Please provide any additional information below. I think I\'ve read somewhere that you do not want to copy the Python\r\nbehavior for * and ** arguments due to added complexity, and that makes\r\nsense - but the above case looks like an actual bug to me.'
+p226
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p227
+sg8
+S'empty ** arguments lead to an incorrect error message'
+p228
+sg10
+(lp229
+g12
+aS'Priority-Medium'
+p230
+ag14
+asg16
+(lp231
+(dp232
+g19
+S'May 19, 2008 06:12:19'
+p233
+sg4
+VHere's a hotfix which seems to work in my project. It is still wrong, as it sets y to\u000aNone instead of an empty dictionary, but I can deal with that temporarily by checking\u000afor None. Hopefully a real fix can be added soon. I guess it would be a matter of\u000afilling in code to create a new empty dictionary instead of a None value - but I was\u000anot able to figure out how to do that.\u000a\u000a**Attachment:** [keyword_args.diff](http://code.google.com/p/tinypy/issues/detail?id=11#hc1)
+p234
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p235
+sa(dp236
+g19
+S'May 19, 2008 07:37:59'
+p237
+sg4
+VI think this patch would be better if:\u000a\u000a- you had it set the destination register to a DICT so that it fixes both issues\u000a- you create a few test cases for tests.py that demonstrate what is not working, so\u000athat we have tests that prove this patch does something valuable, and so someone\u000adoesn't revert this fix in the future.\u000a\u000aThanks!\u000a\u000a**Status:** Accepted  \u000a
+p238
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p239
+sa(dp240
+g19
+S'May 19, 2008 13:05:05'
+p241
+sg4
+VOn May 19, 4:41 pm, codesite-nore...@google.com wrote:\u000a> Issue 11 : empty ** arguments lead to an incorrect error\u000amessage https://code.google.com/p/tinypy/issues/detail?id=11 > \u000a> Comment #2 by philhassey:\u000a> I think this patch would be better if:\u000a> \u000a> - you had it set the destination register to a DICT so that it fixes\u000a> both issues\u000a\u000aYeah, but I'm unable to do that, as I can't quite follow encoder.py - especially what\u000ato take care off to not leak registers, so I better not touch this. I'm also not\u000areally sure what replacing the GET with IGET did, only copied it from the\u000adefault-value-parameter case a few lines above.\u000a\u000a> - you create a few test cases for tests.py that demonstrate what is not\u000a> working, so\u000a> that we have tests that prove this patch does something valuable, and\u000a> so someone\u000a> doesn't revert this fix in the future.\u000a\u000aSure, patch which adds a testcase is attached.\u000a\u000a**Attachment:** [keyword_args_test.diff](http://code.google.com/p/tinypy/issues/detail?id=11#hc3)
+p242
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p243
+sa(dp244
+g19
+S'May 20, 2008 07:34:22'
+p245
+sg4
+V**Status:** Verified  \u000a
+p246
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p247
+sasg23
+V_From [allef...@gmail.com](https://code.google.com/u/105443856688108338371/) on May 19, 2008 12:09:20_\u000a\u000aWhat steps will reproduce the problem? 1: def foo(x, **y):\u000a2:    print(x, y)\u000a3: foo(1) What is the expected output? What do you see instead? I would expect something like: 1 {}\u000aInstead, I get this misleading error:\u000a\u000aFile "a.py", line 3, in ?\u000a  foo(1)\u000aFile "a.py", line 1, in foo\u000a  def foo(x, **y):\u000a\u000aException:\u000atp_get: KeyError: 0 What version of the product are you using? On what operating system? Revision 29 , Debian. Please provide any additional information below. I think I've read somewhere that you do not want to copy the Python\u000abehavior for * and ** arguments due to added complexity, and that makes\u000asense - but the above case looks like an actual bug to me.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=11_
+p248
+sg19
+g25
+(S'\x07\xd8\x05\x13\x0c\t\x14\x00\x00\x00'
+p249
+tp250
+Rp251
+sg29
+g30
+sg31
+I11
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=11'
+p252
+sg34
+Nsg35
+g62
+sa(dp253
+g2
+S'verified'
+p254
+sg4
+S"Posting the patch here where I can attach files (can't in the google groups\r\nlist) :)"
+p255
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p256
+sg8
+S'negative ord'
+p257
+sg10
+(lp258
+g12
+aS'Priority-Medium'
+p259
+ag14
+asg16
+(lp260
+(dp261
+g19
+S'May 21, 2008 14:08:51'
+p262
+sg4
+V**Status:** Verified  \u000a
+p263
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p264
+sasg23
+V_From [allef...@gmail.com](https://code.google.com/u/105443856688108338371/) on May 21, 2008 15:08:06_\u000a\u000aPosting the patch here where I can attach files (can't in the google groups\u000alist) :)\u000a\u000a**Attachment:** [negative_ord.diff](http://code.google.com/p/tinypy/issues/detail?id=12)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=12_
+p265
+sg19
+g25
+(S'\x07\xd8\x05\x15\x0f\x08\x06\x00\x00\x00'
+p266
+tp267
+Rp268
+sg29
+g30
+sg31
+I12
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=12'
+p269
+sg34
+Nsg35
+g62
+sa(dp270
+g2
+S'verified'
+p271
+sg4
+S'There isn\'t an \'osx\' target for tinypy, and building to the \'linux\' target\r\nfails with an error of \'error: unrecognized command line option\r\n"-Wc++-compat"\'.  Removing that option if sys.platform is darwin fixes\r\nthings, and "python setup.py linux boot" works fine when this is the case.\r\n\r\nThis patch implements the fix.  It\'s hackish, but it seems to make things\r\nwork on my system.'
+p272
+sg6
+S'[var...@gmail.com](https://code.google.com/u/106812395767861204601/)'
+p273
+sg8
+S"Tinypy can't be compiled on OS X 10.5"
+p274
+sg10
+(lp275
+g12
+aS'Priority-Medium'
+p276
+ag14
+asg16
+(lp277
+(dp278
+g19
+S'May 23, 2008 18:13:53'
+p279
+sg4
+S"Oh, I should also add that I tried looking at the OS X man page for gcc to find an\r\nequivalent of -Wc++-compat, but couldn't--perhaps such warnings are enabled by\r\ndefault?  I dunno."
+p280
+sg6
+S'[var...@gmail.com](https://code.google.com/u/106812395767861204601/)'
+p281
+sa(dp282
+g19
+S'May 24, 2008 19:40:02'
+p283
+sg4
+VAdding another patch that adds an actual 'osx' target to setup.py, so that 'setup.py\u000aosx', 'setup.py osx test', etc. work.\u000a\u000a**Attachment:** [osx_patch2.diff](http://code.google.com/p/tinypy/issues/detail?id=13#hc2)
+p284
+sg6
+S'[var...@gmail.com](https://code.google.com/u/106812395767861204601/)'
+p285
+sa(dp286
+g19
+S'June 01, 2008 09:15:16'
+p287
+sg4
+Vphil applied this patch in r49 , and I verify that it works properly.  I can run "python \u000asetup.py osx" to build on Mac OS X 10.4.\u000a\u000a**Status:** Verified  \u000a
+p288
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p289
+sasg23
+V_From [var...@gmail.com](https://code.google.com/u/106812395767861204601/) on May 24, 2008 01:10:50_\u000a\u000aThere isn't an 'osx' target for tinypy, and building to the 'linux' target\u000afails with an error of 'error: unrecognized command line option\u000a"-Wc++-compat"'.  Removing that option if sys.platform is darwin fixes\u000athings, and "python setup.py linux boot" works fine when this is the case.\u000a\u000aThis patch implements the fix.  It's hackish, but it seems to make things\u000awork on my system.\u000a\u000a**Attachment:** [osx_patch.diff](http://code.google.com/p/tinypy/issues/detail?id=13)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=13_
+p290
+sg19
+g25
+(S'\x07\xd8\x05\x18\x01\n2\x00\x00\x00'
+p291
+tp292
+Rp293
+sg29
+g30
+sg31
+I13
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=13'
+p294
+sg34
+Nsg35
+g62
+sa(dp295
+g2
+S'fixed'
+p296
+sg4
+S'What steps will reproduce the problem? 1. "test-".index("=") What is the expected output? What do you see instead? CPython gives "ValueError: substring not found" almost immediately.\r\ntinypy hangs for a few seconds and says "Bus error"\r\n\r\nIt looks like the search isn\'t terminating at the end of the string. The\r\ncode for tp_index seems to want to return -1 for substrings that can\'t be\r\nfound, but for some reason it doesn\'t get there.'
+p297
+sg6
+S'[ulf...@gmail.com](https://code.google.com/u/115251497124153393833/)'
+p298
+sg8
+S"index function hangs and gives bus error for substrings that can't be found"
+p299
+sg10
+(lp300
+g12
+aS'Priority-Medium'
+p301
+ag14
+asg16
+(lp302
+(dp303
+g19
+S'May 30, 2008 10:16:55'
+p304
+sg4
+VI put a print in tp_str_index() after the call to _tp_str_index().  It does indeed \u000areturn -1.  I believe the trouble is that the var-arguments passed to tp_raise() are of \u000atype tp_obj rather that pointers to C strings.  The attached patch seems to work for \u000athe test case.\u000a\u000a**Attachment:** [issue_14_string_index_bus_error.patch](http://code.google.com/p/tinypy/issues/detail?id=14#hc1)
+p305
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p306
+sa(dp307
+g19
+S'May 31, 2008 20:23:45'
+p308
+sg4
+S'To complete this patch can you include the test case in tests.py?\r\n\r\nThanks!'
+p309
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p310
+sa(dp311
+g19
+S'June 01, 2008 08:34:00'
+p312
+sg4
+VI added a test case.  I also had to make a small fix to the TINYPY path in tests.py so \u000athat all t_boot() tests would run (can someone please check that the tests pass on \u000alinux).  New patch attached to issue.\u000a\u000a**Attachment:** [issue_14_string_index_bus_error_2.patch](http://code.google.com/p/tinypy/issues/detail?id=14#hc3)
+p313
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p314
+sa(dp315
+g19
+S'June 01, 2008 09:30:59'
+p316
+sg4
+S'The issue with the path needs to be handled in a separate issue since it is unrelated\r\nand especially since this change actually breaks how the bootstrapping process works\r\nunder linux.'
+p317
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p318
+sa(dp319
+g19
+S'June 01, 2008 10:02:21'
+p320
+sg4
+VApplied fix (sans the bootstrapping related change)\u000a\u000a**Status:** Fixed  \u000a
+p321
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p322
+sasg23
+V_From [ulf...@gmail.com](https://code.google.com/u/115251497124153393833/) on May 30, 2008 13:38:47_\u000a\u000aWhat steps will reproduce the problem? 1. "test-".index("=") What is the expected output? What do you see instead? CPython gives "ValueError: substring not found" almost immediately.\u000atinypy hangs for a few seconds and says "Bus error"\u000a\u000aIt looks like the search isn't terminating at the end of the string. The\u000acode for tp_index seems to want to return -1 for substrings that can't be\u000afound, but for some reason it doesn't get there.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=14_
+p323
+sg19
+g25
+(S'\x07\xd8\x05\x1e\r&/\x00\x00\x00'
+p324
+tp325
+Rp326
+sg29
+g30
+sg31
+I14
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=14'
+p327
+sg34
+Nsg35
+S'ulf...@gmail.com'
+p328
+sa(dp329
+g2
+S'wontfix'
+p330
+sg4
+S'What steps will reproduce the problem? 1. checkout tinypy r50 2. $ python setup.py linux\r\n3. $ python setup.py linux test What is the expected output? What do you see instead? Expect a clean compile and clean test report.\r\n\r\nStep #2 produces this error:\r\n/usr/include/math.h:130:17: #if with no expression\r\n/usr/include/math.h:366:17: #if with no expression\r\n\r\nStep #3 produces this error:\r\n<BEGIN>\r\n../build/tinypy tests.py -linux\r\n# t_boot\r\nsh: line 1: ./tinypy: No such file or directory\r\n\r\nFile "tests.py", line 905, in ?\r\n      t_boot(["def test(): print(\'OK\')","import tmp1; tmp1.test()"],"OK")\r\nFile "tests.py", line 872, in t_boot\r\n      if exact: assert(res == ex)\r\n\r\nException:\r\nassert failed\r\nexit_status 65280\r\n<END> Please use labels and text to provide additional information. produced on Linux 2.4.32 (Debian)'
+p331
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p332
+sg8
+S'errors in build and test'
+p333
+sg10
+(lp334
+g12
+aS'Priority-Medium'
+p335
+ag14
+aS'wontfix'
+p336
+asg16
+(lp337
+(dp338
+g19
+S'September 04, 2008 22:18:38'
+p339
+sg4
+VWe're up to r96 now, so I'm going to close this bug .. if this is persisting for you,\u000ayou can re-open it with some more explanation.\u000a\u000a**Status:** WontFix  \u000a
+p340
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p341
+sasg23
+V_From [dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/) on June 01, 2008 18:48:57_\u000a\u000aWhat steps will reproduce the problem? 1. checkout tinypy r50 2. $ python setup.py linux\u000a3. $ python setup.py linux test What is the expected output? What do you see instead? Expect a clean compile and clean test report.\u000a\u000aStep #2 produces this error:\u000a/usr/include/math.h:130:17: #if with no expression\u000a/usr/include/math.h:366:17: #if with no expression\u000a\u000aStep #3 produces this error:\u000a<BEGIN>\u000a../build/tinypy tests.py -linux\u000a# t_boot\u000ash: line 1: ./tinypy: No such file or directory\u000a\u000aFile "tests.py", line 905, in ?\u000a      t_boot(["def test(): print('OK')","import tmp1; tmp1.test()"],"OK")\u000aFile "tests.py", line 872, in t_boot\u000a      if exact: assert(res == ex)\u000a\u000aException:\u000aassert failed\u000aexit_status 65280\u000a<END> Please use labels and text to provide additional information. produced on Linux 2.4.32 (Debian)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=15_
+p342
+sg19
+g25
+(S'\x07\xd8\x06\x01\x1209\x00\x00\x00'
+p343
+tp344
+Rp345
+sg29
+g30
+sg31
+I15
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=15'
+p346
+sg34
+Nsg35
+g62
+sa(dp347
+g2
+S'verified'
+p348
+sg4
+S'What steps will reproduce the problem? 1. Run the following code:\r\n\r\ndef foo():\r\n#    global v\r\n    print("v=", v)\r\n    v = 0\r\n    print("v=", v)\r\n\r\nv = 42\r\nfoo()\r\nprint("v=", v) What is the expected output? What do you see instead? Python 2.5 throws "UnboundLocalError: local variable \'v\' referenced before \r\nassignment" due to the first line of code in foo.  Instead, tinypy finds \r\nthe variable in the global namespace eventhough the global keyword is not \r\nused. Please use labels and text to provide additional information.'
+p349
+sg6
+S'[dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/)'
+p350
+sg8
+S'var changes from global to local scope within function'
+p351
+sg10
+(lp352
+g12
+aS'Priority-Low'
+p353
+ag14
+asg16
+(lp354
+(dp355
+g19
+S'June 04, 2008 08:47:23'
+p356
+sg4
+VIt is actually proper for v to be discovered by a function if it is only "read-only"\u000a In this case, it finds it (for reading) but when it goes to write to it, it changes\u000athe variable use to a local variable.  During that change it should notice and raise\u000aan exception.\u000a\u000aI've changed the summary to reflect this a bit better.\u000a\u000a**Summary:** var changes from global to local scope within function  \u000a
+p357
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p358
+sa(dp359
+g19
+S'June 13, 2008 08:16:12'
+p360
+sg4
+S'Actually, what Python seems to be doing is a bit more complex. It seems to be looking\r\nahead into the function to see if v gets written to anywhere inside it and if it\r\ndoes, it raises an exception on the first read (the first print) and NOT the first write.'
+p361
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p362
+sa(dp363
+g19
+S'September 04, 2008 22:15:57'
+p364
+sg4
+V**Labels:** -Priority-Medium Priority-Low  \u000a
+p365
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p366
+sa(dp367
+g19
+S'September 06, 2008 13:02:36'
+p368
+sg4
+V**Status:** Verified  \u000a
+p369
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p370
+sasg23
+V_From [dwhall...@gmail.com](https://code.google.com/u/111190805002409074271/) on June 04, 2008 15:42:10_\u000a\u000aWhat steps will reproduce the problem? 1. Run the following code:\u000a\u000adef foo():\u000a#    global v\u000a    print("v=", v)\u000a    v = 0\u000a    print("v=", v)\u000a\u000av = 42\u000afoo()\u000aprint("v=", v) What is the expected output? What do you see instead? Python 2.5 throws "UnboundLocalError: local variable 'v' referenced before \u000aassignment" due to the first line of code in foo.  Instead, tinypy finds \u000athe variable in the global namespace eventhough the global keyword is not \u000aused. Please use labels and text to provide additional information.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=16_
+p371
+sg19
+g25
+(S'\x07\xd8\x06\x04\x0f*\n\x00\x00\x00'
+p372
+tp373
+Rp374
+sg29
+g30
+sg31
+I16
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=16'
+p375
+sg34
+Nsg35
+g62
+sa(dp376
+g2
+S'verified'
+p377
+sg4
+S'What steps will reproduce the problem? 1. "print \'OK\'" What is the expected output? What do you see instead? It should raise an exception since this isn\'t supported tinypy syntax. \r\nInstead it does nothing.  (It parses this as "print; \'OK\'")\r\n\r\nHere\'s a test case that should work:\r\nt_render("""print \'OK\'""","Exception")'
+p378
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p379
+sg8
+S"invalid (2.x) print statements parse but don't work"
+p380
+sg10
+(lp381
+g12
+aS'Priority-Medium'
+p382
+ag14
+asg16
+(lp383
+(dp384
+g19
+S'June 10, 2008 20:03:43'
+p385
+sg4
+S"It would be swell if someone patched this... it'll take some bungling around in\r\nparse.py to resolve.  I'd like this fixed since it apparently confuses people: http://groups.google.com/group/tinypy/web/gotchas Which is quite understandable as this is not good behavior."
+p386
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p387
+sa(dp388
+g19
+S'June 13, 2008 08:30:59'
+p389
+sg4
+S'This is true for all functions, variables, or complete statements. If I had "3 5" in\r\nmy program, tinypy would allow it and python would give a syntax error. It also means\r\none can chain statements in a very nasty way like "x=3 x+=1 y=4 print(x, y)" with no\r\nnewlines or semicolons. The real issue appears to be that any number of tokens that\r\ncan stand alone are being parsed, while they ought to require a newline or semicolon.'
+p390
+sg6
+S'[ulf...@gmail.com](https://code.google.com/u/115251497124153393833/)'
+p391
+sa(dp392
+g19
+S'September 06, 2008 12:23:55'
+p393
+sg4
+V**Status:** Verified  \u000a
+p394
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p395
+sasg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on June 11, 2008 03:02:17_\u000a\u000aWhat steps will reproduce the problem? 1. "print 'OK'" What is the expected output? What do you see instead? It should raise an exception since this isn't supported tinypy syntax. \u000aInstead it does nothing.  (It parses this as "print; 'OK'")\u000a\u000aHere's a test case that should work:\u000at_render("""print 'OK'""","Exception")\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=17_
+p396
+sg19
+g25
+(S'\x07\xd8\x06\x0b\x03\x02\x11\x00\x00\x00'
+p397
+tp398
+Rp399
+sg29
+g30
+sg31
+I17
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=17'
+p400
+sg34
+Nsg35
+g62
+sa(dp401
+g2
+S'verified'
+p402
+sg4
+S'What steps will reproduce the problem? 1. Run the following code:\r\n\r\nfoo = "abc" + chr(0) + "d"\r\nprint(foo) What is the expected output? What do you see instead? The expected output (as well as what Python 2.5 does) is "abc d\\n" (since\r\nthe NUL char has no graphic representation). Instead, tinypy prints "abc\\n". What version of the product are you using? On what operating system? Confirmed on both Slackware Linux 12.1 and Windows XP SP2 (and really on\r\nany platform since the problem is algorithmic) using the latest tinypy\r\nrevision ( r53 ). Please provide any additional information below. The proposed resolution is to use fwrite() instead of printf() to print\r\nstrings since the length of the string is known in advance (stored inside\r\ntp_string_ member of tp_obj). Patch included.'
+p403
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p404
+sg8
+S'tp_print() fails to print strings containing embedded NUL chars'
+p405
+sg10
+(lp406
+g12
+aS'Priority-Medium'
+p407
+ag14
+asg16
+(lp408
+(dp409
+g19
+S'June 18, 2008 16:15:39'
+p410
+sg4
+S'Needs a test case.'
+p411
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p412
+sa(dp413
+g19
+S'June 18, 2008 17:40:36'
+p414
+sg4
+VI've found that the strip() method of strings had a similar problem (used strlen()\u000ainstead of foo.string.len) while I was writing the test, so I patched up that as well\u000a(test included).\u000a\u000a**Attachment:** [issue18.patch](http://code.google.com/p/tinypy/issues/detail?id=18#hc2)
+p415
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p416
+sa(dp417
+g19
+S'June 20, 2008 07:51:10'
+p418
+sg4
+S"You should probably break this into two separate patches .. but don't bother this time :)\r\n\r\nThe strip patch is a bit long and won't work.  If it is passed something other than a\r\nstring it will have undefined behavior.  You want to use TP_TYPE(TP_STRING); to get\r\nyour parameter to assert that it is a string.  After that, you can make things a bit\r\nmore concise."
+p419
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p420
+sa(dp421
+g19
+S'July 18, 2008 19:28:12'
+p422
+sg4
+VHow's this revised version?\u000a\u000a**Attachment:** [issue18.patch](http://code.google.com/p/tinypy/issues/detail?id=18#hc4)
+p423
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p424
+sa(dp425
+g19
+S'July 24, 2008 12:49:42'
+p426
+sg4
+S'I think that looks good, feel free to commit this fix.'
+p427
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p428
+sa(dp429
+g19
+S'July 25, 2008 01:53:08'
+p430
+sg4
+V**Status:** Verified  \u000a
+p431
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p432
+sasg23
+V_From [denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/) on June 18, 2008 16:07:43_\u000a\u000aWhat steps will reproduce the problem? 1. Run the following code:\u000a\u000afoo = "abc" + chr(0) + "d"\u000aprint(foo) What is the expected output? What do you see instead? The expected output (as well as what Python 2.5 does) is "abc d\u005cn" (since\u000athe NUL char has no graphic representation). Instead, tinypy prints "abc\u005cn". What version of the product are you using? On what operating system? Confirmed on both Slackware Linux 12.1 and Windows XP SP2 (and really on\u000aany platform since the problem is algorithmic) using the latest tinypy\u000arevision ( r53 ). Please provide any additional information below. The proposed resolution is to use fwrite() instead of printf() to print\u000astrings since the length of the string is known in advance (stored inside\u000atp_string_ member of tp_obj). Patch included.\u000a\u000a**Attachment:** [tp_print.patch](http://code.google.com/p/tinypy/issues/detail?id=18)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=18_
+p433
+sg19
+g25
+(S'\x07\xd8\x06\x12\x10\x07+\x00\x00\x00'
+p434
+tp435
+Rp436
+sg29
+g30
+sg31
+I18
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=18'
+p437
+sg34
+Nsg35
+g62
+sa(dp438
+g2
+S'verified'
+p439
+sg4
+S'What steps will reproduce the problem? 1. Run the following code:\r\n\r\nfoo = "abc" * -1 What is the expected output? What do you see instead? There is no expected output, but the program should finish gracefully.\r\nInstead, it crashes tinypy.\r\n\r\nIf the value of foo is subsequently printed with the print() builtin,\r\ntinypy outputs junk (probably random memory dump) to stdout. What version of the product are you using? On what operating system? Tested and confirmed on Slackware 12.1 and Windows XP SP2. Please provide any additional information below. The problem is that negative values aren\'t sanitised in tp_mul() when\r\nallocating storage for the new string. I have modified tp_mul() to return\r\nan empty string when multiplied by a negative value (like bigpy does).'
+p440
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p441
+sg8
+S'Multiplying a string with a negative value crashes tinypy'
+p442
+sg10
+(lp443
+g12
+aS'Priority-Medium'
+p444
+ag14
+asg16
+(lp445
+(dp446
+g19
+S'June 18, 2008 12:17:53'
+p447
+sg4
+VGrumble. I attached the whole file by accident. Here is the patch.\u000a\u000a**Attachment:** [tp_mul.patch](http://code.google.com/p/tinypy/issues/detail?id=19#hc1)
+p448
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p449
+sa(dp450
+g19
+S'June 18, 2008 16:13:30'
+p451
+sg4
+S'Please include a t_test("""....""") part in tests.py to demonstrate the bug and prove\r\nthe fix.'
+p452
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p453
+sa(dp454
+g19
+S'June 18, 2008 16:37:23'
+p455
+sg4
+VYes, sorry about that. Here it is.\u000a\u000a**Attachment:** [tp_mul.patch](http://code.google.com/p/tinypy/issues/detail?id=19#hc3)
+p456
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p457
+sa(dp458
+g19
+S'June 20, 2008 07:45:56'
+p459
+sg4
+S'This patch could be a bit more concise.  No need for the else { } part.'
+p460
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p461
+sa(dp462
+g19
+S'June 20, 2008 08:26:28'
+p463
+sg4
+VHere is the revised version (diff against r57 ).\u000a\u000a**Attachment:** [tp_mul.patch](http://code.google.com/p/tinypy/issues/detail?id=19#hc5)
+p464
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p465
+sa(dp466
+g19
+S'June 20, 2008 08:33:47'
+p467
+sg4
+V**Status:** Verified  \u000a
+p468
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p469
+sasg23
+V_From [denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/) on June 18, 2008 19:12:27_\u000a\u000aWhat steps will reproduce the problem? 1. Run the following code:\u000a\u000afoo = "abc" * -1 What is the expected output? What do you see instead? There is no expected output, but the program should finish gracefully.\u000aInstead, it crashes tinypy.\u000a\u000aIf the value of foo is subsequently printed with the print() builtin,\u000atinypy outputs junk (probably random memory dump) to stdout. What version of the product are you using? On what operating system? Tested and confirmed on Slackware 12.1 and Windows XP SP2. Please provide any additional information below. The problem is that negative values aren't sanitised in tp_mul() when\u000aallocating storage for the new string. I have modified tp_mul() to return\u000aan empty string when multiplied by a negative value (like bigpy does).\u000a\u000a**Attachment:** [ops.c](http://code.google.com/p/tinypy/issues/detail?id=19)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=19_
+p470
+sg19
+g25
+(S'\x07\xd8\x06\x12\x13\x0c\x1b\x00\x00\x00'
+p471
+tp472
+Rp473
+sg29
+g30
+sg31
+I19
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=19'
+p474
+sg34
+Nsg35
+g62
+sa(dp475
+g2
+S'verified'
+p476
+sg4
+S'What steps will reproduce the problem? 1. Run the following code:\r\n\r\nfoo = 2 * "abc"\r\nprint(foo) What is the expected output? What do you see instead? Expected output:\r\n"abcabc"\r\n\r\ntinypy output:\r\n"\r\nFile "baby.py", line 1, in ?\r\n  foo = 2 * "abc"\r\n\r\nException:\r\ntp_mul(2,abc)\r\n" What version of the product are you using? On what operating system? Slackware 12.1, Windows XP SP2. Please provide any additional information below. The issue is again in how tp_mul() checks for argument types. I would\r\nprovide a patch but I didn\'t want to patch both this and the issue 19 in\r\nthe same patch so I\'m waiting until the patch for issue 19 gets committed.'
+p477
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p478
+sg8
+S'String multiplication is non-commutative'
+p479
+sg10
+(lp480
+g12
+aS'Priority-Medium'
+p481
+ag14
+asg16
+(lp482
+(dp483
+g19
+S'August 06, 2008 21:54:34'
+p484
+sg4
+VHere's a possible patch for the bug. I can't think of a way to simplify it any further.\u000a\u000a**Attachment:** [str_mul.patch](http://code.google.com/p/tinypy/issues/detail?id=20#hc1)
+p485
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p486
+sa(dp487
+g19
+S'August 07, 2008 13:42:43'
+p488
+sg4
+VAdded a test case.\u000a\u000a**Attachment:** [str_mul.patch](http://code.google.com/p/tinypy/issues/detail?id=20#hc2)
+p489
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p490
+sa(dp491
+g19
+S'September 04, 2008 22:14:43'
+p492
+sg4
+VYou may apply this patch to the trunk.\u000a\u000a**Owner:** denis.kasak  \u000a
+p493
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p494
+sa(dp495
+g19
+S'September 06, 2008 18:36:16'
+p496
+sg4
+V**Status:** Verified  \u000a
+p497
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p498
+sasg23
+V_From [denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/) on June 18, 2008 19:26:55_\u000a\u000aWhat steps will reproduce the problem? 1. Run the following code:\u000a\u000afoo = 2 * "abc"\u000aprint(foo) What is the expected output? What do you see instead? Expected output:\u000a"abcabc"\u000a\u000atinypy output:\u000a"\u000aFile "baby.py", line 1, in ?\u000a  foo = 2 * "abc"\u000a\u000aException:\u000atp_mul(2,abc)\u000a" What version of the product are you using? On what operating system? Slackware 12.1, Windows XP SP2. Please provide any additional information below. The issue is again in how tp_mul() checks for argument types. I would\u000aprovide a patch but I didn't want to patch both this and the issue 19 in\u000athe same patch so I'm waiting until the patch for issue 19 gets committed.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=20_
+p499
+sg19
+g25
+(S'\x07\xd8\x06\x12\x13\x1a7\x00\x00\x00'
+p500
+tp501
+Rp502
+sg29
+g30
+sg31
+I20
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=20'
+p503
+sg34
+Nsg35
+S'denis.ka...@gmail.com'
+p504
+sa(dp505
+g2
+S'fixed'
+p506
+sg4
+VWhat steps will reproduce the problem? for example, running the following script\uff1a\u000a-------------------------\u000anum = 0\u000anum = num | 1\u000aprint(num)\u000a\u000anum = 0\u000anum |= 1\u000aprint(num)\u000a\u000anum = 0\u000anum &= 1\u000aprint(num)\u000a------------------------- What is the expected output? What do you see instead? The expected results should be:\u000a1\u000a1\u000a0\u000aBut tinypy output exceptions for those bitwise operators. For | and |=, the\u000aexception is:\u000aException:\u000aerror: tokenize\u000a   6: num |= 1\u000a          ^\u000aFor &= operator, the exception is:\u000aException:\u000atp_get: KeyError: nud Please use labels and text to provide additional information. The problem jump out in revision 74 of tinypy. I haven't tested it on other\u000aversions. But I guess the problem still exists on previous versions.\u000a\u000aBesides, My operation system is  Microsoft Windows XP [version 5.1.2600].\u000aAnd I compiled tinypy under mingw.
+p507
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p508
+sg8
+S'Improper results of bitwise operator |, |=, and &='
+p509
+sg10
+(lp510
+g12
+aS'OpSys-Windows'
+p511
+aS'Priority-Medium'
+p512
+ag14
+aS'Usability'
+p513
+asg16
+(lp514
+(dp515
+g19
+S'June 30, 2008 11:15:22'
+p516
+sg4
+VDoes the attached patch (against revision 74 ) fix it?\u000a\u000a**Attachment:** [logic.diff](http://code.google.com/p/tinypy/issues/detail?id=21#hc1)
+p517
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p518
+sa(dp519
+g19
+S'July 04, 2008 11:18:08'
+p520
+sg4
+S'Confirming that your patch fixes the issue (Slackware Linux and Windows XP under mingw).'
+p521
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p522
+sa(dp523
+g19
+S'July 06, 2008 13:10:43'
+p524
+sg4
+VAttached another patch replacing the previous, this time also fixing ^ and ^= which\u000aalso were missing.\u000a\u000a**Attachment:** [logic2.diff](http://code.google.com/p/tinypy/issues/detail?id=21#hc3)
+p525
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p526
+sa(dp527
+g19
+S'July 18, 2008 10:08:00'
+p528
+sg4
+VOk, should be fixed as of revision 84 .\u000a\u000a**Status:** Fixed  \u000a
+p529
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p530
+sasg23
+V_From [ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/) on June 30, 2008 08:39:26_\u000a\u000aWhat steps will reproduce the problem? for example, running the following script\uff1a\u000a-------------------------\u000anum = 0\u000anum = num | 1\u000aprint(num)\u000a\u000anum = 0\u000anum |= 1\u000aprint(num)\u000a\u000anum = 0\u000anum &= 1\u000aprint(num)\u000a------------------------- What is the expected output? What do you see instead? The expected results should be:\u000a1\u000a1\u000a0\u000aBut tinypy output exceptions for those bitwise operators. For | and |=, the\u000aexception is:\u000aException:\u000aerror: tokenize\u000a   6: num |= 1\u000a          ^\u000aFor &= operator, the exception is:\u000aException:\u000atp_get: KeyError: nud Please use labels and text to provide additional information. The problem jump out in revision 74 of tinypy. I haven't tested it on other\u000aversions. But I guess the problem still exists on previous versions.\u000a\u000aBesides, My operation system is  Microsoft Windows XP [version 5.1.2600].\u000aAnd I compiled tinypy under mingw.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=21_
+p531
+sg19
+g25
+(S"\x07\xd8\x06\x1e\x08'\x1a\x00\x00\x00"
+p532
+tp533
+Rp534
+sg29
+g30
+sg31
+I21
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=21'
+p535
+sg34
+Nsg35
+S'ybc2084@gmail.com'
+p536
+sa(dp537
+g2
+S'verified'
+p538
+sg4
+S'What steps will reproduce the problem? 1. Run the following code:\r\n\r\nx = [1, 2, 3]\r\n\r\nfor i in x:\r\n    if i != 0 and i:\r\n        print("abc") What is the expected output? What do you see instead? The expected output is "abc". Instead, tinypy prints:\r\n \r\nException:\r\nassert failed What version of the product are you using? On what operating system? Tested on both Slackware Linux 10 and Windows XP SP2 with the latest\r\nrevision ( r74 ). Please provide any additional information below. The bug does not show up if the tests are made in different order, i.e. \r\n\r\n"if i and i != 0:"\r\n\r\nAlso, the erroneous behaviour shows up regardless of what logical operator\r\nis used (as far as I could figure) and the truthfulness of the expression\r\n(happens in cases where it is false too). It does not happen with only a\r\nsingle expression (only in expressions combined with \'or\', \'and\', etc). It\r\nalso doesn\'t happen when the conditional expression is done on a \'normal\'\r\nvariable outside the loop.'
+p539
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p540
+sg8
+S'Specific conditional tests failing in a loop'
+p541
+sg10
+(lp542
+g12
+aS'Priority-Medium'
+p543
+ag14
+asg16
+(lp544
+(dp545
+g19
+S'July 04, 2008 11:10:06'
+p546
+sg4
+S'Actually, further tests show that even though "if i and i != 0:" (the reversed\r\nexpression I gave as an example) works, the "if i and i > 0:" (for instance) fails,\r\nbut not with the message given above. Instead, it prints nothing. Also, the expected\r\noutput is of course "abc\\nabc\\nabc\\n", not "abc". Sorry about that.\r\n\r\nThe bug seems to be tied specifically to the single "i" truthfulness part of the\r\ntest, since the "if i > 0 and i != 0:" seems to be working fine.'
+p547
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p548
+sa(dp549
+g19
+S'July 09, 2008 07:15:15'
+p550
+sg4
+S'I believe this error is likely due to a register allocation bug.  This can be\r\nverified by commenting out the try/except in encode.py:do .. If that is the case, I\r\nwill probably work on resolving this bug when I have a moment.'
+p551
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p552
+sa(dp553
+g19
+S'September 04, 2008 22:12:54'
+p554
+sg4
+V**Owner:** philhassey  \u000a
+p555
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p556
+sa(dp557
+g19
+S'September 05, 2008 20:27:55'
+p558
+sg4
+V**Status:** Verified  \u000a
+p559
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p560
+sasg23
+V_From [denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/) on July 04, 2008 18:03:54_\u000a\u000aWhat steps will reproduce the problem? 1. Run the following code:\u000a\u000ax = [1, 2, 3]\u000a\u000afor i in x:\u000a    if i != 0 and i:\u000a        print("abc") What is the expected output? What do you see instead? The expected output is "abc". Instead, tinypy prints:\u000a \u000aException:\u000aassert failed What version of the product are you using? On what operating system? Tested on both Slackware Linux 10 and Windows XP SP2 with the latest\u000arevision ( r74 ). Please provide any additional information below. The bug does not show up if the tests are made in different order, i.e. \u000a\u000a"if i and i != 0:"\u000a\u000aAlso, the erroneous behaviour shows up regardless of what logical operator\u000ais used (as far as I could figure) and the truthfulness of the expression\u000a(happens in cases where it is false too). It does not happen with only a\u000asingle expression (only in expressions combined with 'or', 'and', etc). It\u000aalso doesn't happen when the conditional expression is done on a 'normal'\u000avariable outside the loop.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=22_
+p561
+sg19
+g25
+(S'\x07\xd8\x07\x04\x12\x036\x00\x00\x00'
+p562
+tp563
+Rp564
+sg29
+g30
+sg31
+I22
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=22'
+p565
+sg34
+Nsg35
+S'philhas...@gmail.com'
+p566
+sa(dp567
+g2
+S'wontfix'
+p568
+sg4
+S'What steps will reproduce the problem? 1. Save "    \\n?" to test.py\r\n2. Run "./build/tinypy ./tinypy/py2bc.py test.py test.tpc" What is the expected output? What do you see instead? tinypy should output an exception regarding a tokenization error (something\r\nlike \r\n\r\n"""\r\nException:\r\nerror: tokenize\r\n   2: ?"\r\n"""\r\n\r\nInstead, tinypy crashes. What version of the product are you using? On what operating system? Tested on Windows XP SP2, against latest revision ( r74 ), compiled with mingw. Please provide any additional information below. The crash doesn\'t happen when running the file directly through tinypy,\r\nonly when running it through py2bc.py. Also, it doesn\'t happen when there\r\nis no indentation prior to the question mark character.'
+p569
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p570
+sg8
+S'tinypy crashes when processing certain files with py2bc.py'
+p571
+sg10
+(lp572
+g12
+aS'Priority-Medium'
+p573
+ag14
+ag336
+asg16
+(lp574
+(dp575
+g19
+S'September 04, 2008 23:37:57'
+p576
+sg4
+S"I wasn't able to reproduce this issue under linux.  Can you provide a patch to\r\ntests.py that reproduces this issue?"
+p577
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p578
+sa(dp579
+g19
+S'September 05, 2008 00:54:35'
+p580
+sg4
+VI can't seem to duplicate it any more myself. We must have done something to fix\u000athis. Closing the issue.\u000a\u000a**Status:** WorksForMe  \u000a
+p581
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p582
+sa(dp583
+g19
+S'September 05, 2008 00:56:09'
+p584
+sg4
+VOr rather WontFix since Google Code doesn't support WorksForMe, sadly. :(\u000a\u000a**Status:** WontFix  \u000a
+p585
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p586
+sasg23
+V_From [denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/) on July 05, 2008 04:35:32_\u000a\u000aWhat steps will reproduce the problem? 1. Save "    \u005cn?" to test.py\u000a2. Run "./build/tinypy ./tinypy/py2bc.py test.py test.tpc" What is the expected output? What do you see instead? tinypy should output an exception regarding a tokenization error (something\u000alike \u000a\u000a"""\u000aException:\u000aerror: tokenize\u000a   2: ?"\u000a"""\u000a\u000aInstead, tinypy crashes. What version of the product are you using? On what operating system? Tested on Windows XP SP2, against latest revision ( r74 ), compiled with mingw. Please provide any additional information below. The crash doesn't happen when running the file directly through tinypy,\u000aonly when running it through py2bc.py. Also, it doesn't happen when there\u000ais no indentation prior to the question mark character.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=23_
+p587
+sg19
+g25
+(S'\x07\xd8\x07\x05\x04# \x00\x00\x00'
+p588
+tp589
+Rp590
+sg29
+g30
+sg31
+I23
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=23'
+p591
+sg34
+Nsg35
+g62
+sa(dp592
+g2
+S'fixed'
+p593
+sg4
+S"What steps will reproduce the problem? 1. Embed tinypy in your application.\r\n2. Make your tinypy code raise an uncaught exception.\r\n3. Try to debug the problem. What is the expected output? What do you see instead? I would like a full traceback in gdb to the line of code which caused the\r\nproblem. Instead I get nothing at all.\r\n\r\nThe attached patch fixes it by replacing tinypy's calls to exit() with abort()."
+p594
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p595
+sg8
+S'tinypy exits on errors without debug info'
+p596
+sg10
+(lp597
+g12
+aS'Priority-Medium'
+p598
+ag14
+asg16
+(lp599
+(dp600
+g19
+S'July 31, 2008 10:24:19'
+p601
+sg4
+VSince nobody said otherwise.. I applied the first chunk of the patch (the second was\u000anot quite right). Should not cause any adverse effects, and makes debugging easier.\u000a\u000a**Status:** Fixed  \u000a
+p602
+sg6
+S'[allef...@gmail.com](https://code.google.com/u/105443856688108338371/)'
+p603
+sasg23
+V_From [allef...@gmail.com](https://code.google.com/u/105443856688108338371/) on July 20, 2008 15:39:50_\u000a\u000aWhat steps will reproduce the problem? 1. Embed tinypy in your application.\u000a2. Make your tinypy code raise an uncaught exception.\u000a3. Try to debug the problem. What is the expected output? What do you see instead? I would like a full traceback in gdb to the line of code which caused the\u000aproblem. Instead I get nothing at all.\u000a\u000aThe attached patch fixes it by replacing tinypy's calls to exit() with abort().\u000a\u000a**Attachment:** [abort.diff](http://code.google.com/p/tinypy/issues/detail?id=24)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=24_
+p604
+sg19
+g25
+(S"\x07\xd8\x07\x14\x0f'2\x00\x00\x00"
+p605
+tp606
+Rp607
+sg29
+g30
+sg31
+I24
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=24'
+p608
+sg34
+Nsg35
+S'allef...@gmail.com'
+p609
+sa(dp610
+g2
+S'new'
+p611
+sg4
+S'Using a white list instead of a blacklist for sandbox stuff.\r\n\r\nsee this thread for more info: http://groups.google.com/group/tinypy/browse_thread/thread/5001ec89e1bbaab1/2e4e710d95ac638f'
+p612
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p613
+sg8
+S'white list, instead of black list for sandbox builtins'
+p614
+sg10
+(lp615
+g12
+aS'Priority-Low'
+p616
+ag14
+asg16
+(lp617
+(dp618
+g19
+S'September 04, 2008 22:20:13'
+p619
+sg4
+VI've changed the priority to Low because we should do this, but we don't have to do\u000ait right away.  It's easy though, so if someone wants to get it done, they might as well.\u000a\u000a**Labels:** -Priority-Medium Priority-Low  \u000a
+p620
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p621
+sasg23
+V_From [ren...@gmail.com](https://code.google.com/u/113016169502668158732/) on August 20, 2008 04:26:31_\u000a\u000aUsing a white list instead of a blacklist for sandbox stuff.\u000a\u000asee this thread for more info: http://groups.google.com/group/tinypy/browse_thread/thread/5001ec89e1bbaab1/2e4e710d95ac638f\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=25_
+p622
+sg19
+g25
+(S'\x07\xd8\x08\x14\x04\x1a\x1f\x00\x00\x00'
+p623
+tp624
+Rp625
+sg29
+S'open'
+p626
+sg31
+I25
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=25'
+p627
+sg34
+Nsg35
+g62
+sa(dp628
+g2
+S'verified'
+p629
+sg4
+S'What steps will reproduce the problem? 1. Run the following code:\r\n\r\nwhile 1:\r\nprint("blah") What is the expected output? What do you see instead? tinypy should raise an IndentationError exception because there is an\r\nindentation block missing before the print statement. Instead, tinypy\r\nexecutes the code normally. Please use labels and text to provide additional information.'
+p630
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p631
+sg8
+S'tinypy executes statements where an indented block should be expected'
+p632
+sg10
+(lp633
+g12
+aS'Priority-Low'
+p634
+ag14
+asg16
+(lp635
+(dp636
+g19
+S'September 05, 2008 21:13:18'
+p637
+sg4
+V**Status:** Verified  \u000a  **Owner:** philhassey  \u000a
+p638
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p639
+sasg23
+V_From [denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/) on September 04, 2008 18:48:53_\u000a\u000aWhat steps will reproduce the problem? 1. Run the following code:\u000a\u000awhile 1:\u000aprint("blah") What is the expected output? What do you see instead? tinypy should raise an IndentationError exception because there is an\u000aindentation block missing before the print statement. Instead, tinypy\u000aexecutes the code normally. Please use labels and text to provide additional information.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=26_
+p640
+sg19
+g25
+(S'\x07\xd8\t\x04\x1205\x00\x00\x00'
+p641
+tp642
+Rp643
+sg29
+g30
+sg31
+I26
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=26'
+p644
+sg34
+Nsg35
+S'philhas...@gmail.com'
+p645
+sa(dp646
+g2
+S'verified'
+p647
+sg4
+S'What steps will reproduce the problem? Add this to tests.py:\r\n\r\n    #test that the __main__ module doesn\'t get GC\'d\r\n    t_render("""\r\nMODULES["__main__"] = None\r\nfor n in range(0,50000):\r\n    x = [n]\r\nprint("OK")\r\n""","OK") What is the expected output? What do you see instead? It should say "OK" instead it gives some sort of error message.  For example: \r\n\r\nException:\r\ntp_step: invalid instruction 105\'\r\n\r\nThis is because since the main reference to the __main__ module has been\r\nremoved, the module gets garbage collected while it is being used.'
+p648
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p649
+sg8
+S'bytecode may be garbage collected during execution of code'
+p650
+sg10
+(lp651
+g12
+aS'Priority-Medium'
+p652
+ag14
+asg16
+(lp653
+(dp654
+g19
+S'September 13, 2008 20:35:40'
+p655
+sg4
+V**Status:** Verified  \u000a
+p656
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p657
+sasg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on September 05, 2008 06:30:04_\u000a\u000aWhat steps will reproduce the problem? Add this to tests.py:\u000a\u000a    #test that the __main__ module doesn't get GC'd\u000a    t_render("""\u000aMODULES["__main__"] = None\u000afor n in range(0,50000):\u000a    x = [n]\u000aprint("OK")\u000a""","OK") What is the expected output? What do you see instead? It should say "OK" instead it gives some sort of error message.  For example: \u000a\u000aException:\u000atp_step: invalid instruction 105'\u000a\u000aThis is because since the main reference to the __main__ module has been\u000aremoved, the module gets garbage collected while it is being used.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=27_
+p658
+sg19
+g25
+(S'\x07\xd8\t\x05\x06\x1e\x04\x00\x00\x00'
+p659
+tp660
+Rp661
+sg29
+g30
+sg31
+I27
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=27'
+p662
+sg34
+Nsg35
+g62
+sa(dp663
+g2
+S'started'
+p664
+sg4
+S'I want setup.py to work more like this:\r\n\r\nTo build / install the Cpython API, things should work exactly how they\r\nwork for any other python module in the world:\r\n\r\npython setup.py build\r\npython setup.py install\r\n\r\nTo build tinypy stuff:\r\npython setup.py tinypy (right now a platform must be specified, this should\r\nbe auto detected from sys.platform instead)\r\npython setup.py blob (this works already)\r\npython setup.py 64k (this works already)\r\n\r\nOptions are things like (these already work)\r\ndebug, test, boot, [optional modules to compile in]\r\n\r\nTo specify an alternate platform, the user should be able to do something\r\nlike: \r\npython setup.py tinypy -cmingw32'
+p665
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p666
+sg8
+S'improvements to setup.py to make it more python friendly'
+p667
+sg10
+(lp668
+g12
+aS'Priority-Medium'
+p669
+aS'enhancement'
+p670
+asg16
+(lp671
+(dp672
+g19
+S'September 04, 2008 23:51:34'
+p673
+sg4
+V**Labels:** -Type-Defect Type-Enhancement  \u000a
+p674
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p675
+sa(dp676
+g19
+S'September 05, 2008 01:00:19'
+p677
+sg4
+S'Most of this is not a problem, but even if we autodetect the operating system, we\r\nwill still need to specify the compiler manually as I see no other way of finding out\r\nwhich to use; especially because VS works completely different than other, more unixy\r\ncompilers.'
+p678
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p679
+sa(dp680
+g19
+S'September 05, 2008 08:30:04'
+p681
+sg4
+S"VS is the default compiler on windows for python generally.  So that would be the\r\ndefault.  To use mingw32 (which I do, for example) I'd have to supply the compiler\r\nflag.  \r\n\r\nOn OSX/Linux gcc is the compiler, so no problem there either."
+p682
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p683
+sa(dp684
+g19
+S'September 05, 2008 19:49:55'
+p685
+sg4
+S'In addition I\'d like the option "valgrind" to run stuff prefixed with valgrind.  For\r\nexample:\r\n\r\npython setup.py tinypy test valgrind\r\n\r\nwill build tinypy, and run the tests under valgrind.'
+p686
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p687
+sa(dp688
+g19
+S'September 06, 2008 11:58:57'
+p689
+sg4
+S'This is what the new help text should be:\r\n\r\npython setup.py command [options] [modules]\r\n\r\nCommands:\r\n    tinypy - build a vanilla tinypy interpreter binary\r\n    64k - generate a 64k version of the tinypy source\r\n    blob - generate a single tinypy.c and tinypy.h\r\n\r\n    build - build CPython module\r\n    install - install CPython module\r\n\r\nOptions:\r\n    test - run tests during build\r\n    clean - rebuild all .tpc during build\r\n    boot - fully bootstrap and test tinypy\r\n    debug - build with debug options on\r\n    valgrind - run tests through valgrind\r\n    -cPLATFORM - build for a specific platform (for example -cmingw32)\r\n\r\nModules:\r\n    math - build math module\r\n    random - build random module *\r\n    pygame - build pygame module **\r\n    marshal - build marshal module ***\r\n    jit - build jit module ***\r\n    re - build re module ***\r\n    ??? - build other modules in the modules folder\r\n\r\n* coming soon!!\r\n** proof-of-concept included\r\n*** vaporware'
+p690
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p691
+sa(dp692
+g19
+S'September 16, 2008 12:07:36'
+p693
+sg4
+V**Status:** Fixed  \u000a  **Owner:** ulfada  \u000a
+p694
+sg6
+S'[ulf...@gmail.com](https://code.google.com/u/115251497124153393833/)'
+p695
+sa(dp696
+g19
+S'September 16, 2008 22:47:27'
+p697
+sg4
+S"hi,\r\n\r\n\r\nhere's some other options I noticed missing...\r\n\r\nThis is like -cmingw32, but the long form.\r\n--compiler=mingw32\r\n\r\n\r\nCommand line programs need a help flag.\r\n--help\r\n/?\r\n-h\r\n\r\n\r\n\r\nAlso a lot of people set their compiler system wide.  So you don't need to specify\r\n--compiler=mingw32 all the time.  Details here: http://docs.python.org/inst/config-syntax.html Rather than parsing config files, it might be easier to import distutils and inspect\r\nit in there somewhere."
+p698
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p699
+sa(dp700
+g19
+S'September 21, 2008 15:36:50'
+p701
+sg4
+VReopening while I work on the issues brought up by renesd.\u000a\u000aCurrently can't find a good way to figure out what compiler was defined in the\u000asetuptools config file. If anyone finds a good way, let me know or just implement it.\u000aI'll add support for long args and help commands soon. I'm considering switching us\u000ato an actual argument parser to make all this cleaner. Feel free to share thoughts there.\u000a\u000a**Status:** Started  \u000a
+p702
+sg6
+S'[ulf...@gmail.com](https://code.google.com/u/115251497124153393833/)'
+p703
+sasg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on September 05, 2008 06:51:10_\u000a\u000aI want setup.py to work more like this:\u000a\u000aTo build / install the Cpython API, things should work exactly how they\u000awork for any other python module in the world:\u000a\u000apython setup.py build\u000apython setup.py install\u000a\u000aTo build tinypy stuff:\u000apython setup.py tinypy (right now a platform must be specified, this should\u000abe auto detected from sys.platform instead)\u000apython setup.py blob (this works already)\u000apython setup.py 64k (this works already)\u000a\u000aOptions are things like (these already work)\u000adebug, test, boot, [optional modules to compile in]\u000a\u000aTo specify an alternate platform, the user should be able to do something\u000alike: \u000apython setup.py tinypy -cmingw32\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=28_
+p704
+sg19
+g25
+(S'\x07\xd8\t\x05\x063\n\x00\x00\x00'
+p705
+tp706
+Rp707
+sg29
+g626
+sg31
+I28
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=28'
+p708
+sg34
+Nsg35
+S'ulf...@gmail.com'
+p709
+sa(dp710
+g2
+S'verified'
+p711
+sg4
+S"hi,\r\n\r\nIn here, some of the function calls aren't checking for errors: https://code.google.com/p/tinypy/source/browse/branches/sandbox/modules/cpython/cpython.c Need to go over each of the CPython C API function calls, and check for errors.\r\n\r\neg, the return value of PyList_Append is not checked.\r\n\r\n\r\n\r\nalso... in:\r\nTinypy_init(TinypyObject *self, PyObject *args, PyObject *kwds)\r\n\r\nNeed to do input validation.  This function uses signed values for time,\r\nand memory limits.  Is this needed?  I think checking for unsigned values\r\nwould be better.\r\n\r\n\r\n\r\ncheers,"
+p712
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p713
+sg8
+S"some cpython/cpython.c cpython C API code doesn't check return values"
+p714
+sg10
+(lp715
+g12
+aS'Priority-Medium'
+p716
+ag14
+asg16
+(lp717
+(dp718
+g19
+S'September 26, 2008 05:45:47'
+p719
+sg4
+VI've fixed the above mentioned issues so I think it's safe to close this bug for now.\u000aAlso, I've changed the memory limit to use an unsigned long value, but the time limit\u000amust stay as double as we need it for resolution.\u000a\u000a**Status:** Verified  \u000a
+p720
+sg6
+S'[denis.ka...@gmail.com](https://code.google.com/u/111292945140424248312/)'
+p721
+sasg23
+V_From [ren...@gmail.com](https://code.google.com/u/113016169502668158732/) on September 05, 2008 07:11:28_\u000a\u000ahi,\u000a\u000aIn here, some of the function calls aren't checking for errors: https://code.google.com/p/tinypy/source/browse/branches/sandbox/modules/cpython/cpython.c Need to go over each of the CPython C API function calls, and check for errors.\u000a\u000aeg, the return value of PyList_Append is not checked.\u000a\u000a\u000a\u000aalso... in:\u000aTinypy_init(TinypyObject *self, PyObject *args, PyObject *kwds)\u000a\u000aNeed to do input validation.  This function uses signed values for time,\u000aand memory limits.  Is this needed?  I think checking for unsigned values\u000awould be better.\u000a\u000a\u000a\u000acheers,\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=29_
+p722
+sg19
+g25
+(S'\x07\xd8\t\x05\x07\x0b\x1c\x00\x00\x00'
+p723
+tp724
+Rp725
+sg29
+g30
+sg31
+I29
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=29'
+p726
+sg34
+Nsg35
+g62
+sa(dp727
+g2
+S'assigned'
+p728
+sg4
+S"I'm unsure if tp->strings still serves any purpose.  Please verify that it\r\ndoes, and if not, remove it.\r\n\r\nAlso, it might be better if tp_string_slice used tp_string_sub instead of\r\ntp_string_copy.  Please verify with memory / speed tests if this is the case.\r\n\r\nThese aren't the most important issues in the world, but they should be\r\nchecked eventually.  I've assigned this task to myself, but if someone else\r\nhas thoughts, I'd be glad to hear them."
+p729
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p730
+sg8
+S'verify that strings are handled the best way possible'
+p731
+sg10
+(lp732
+g12
+aS'Priority-Low'
+p733
+ag670
+asg16
+(lp734
+sg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on September 14, 2008 03:40:50_\u000a\u000aI'm unsure if tp->strings still serves any purpose.  Please verify that it\u000adoes, and if not, remove it.\u000a\u000aAlso, it might be better if tp_string_slice used tp_string_sub instead of\u000atp_string_copy.  Please verify with memory / speed tests if this is the case.\u000a\u000aThese aren't the most important issues in the world, but they should be\u000achecked eventually.  I've assigned this task to myself, but if someone else\u000ahas thoughts, I'd be glad to hear them.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=30_
+p735
+sg19
+g25
+(S'\x07\xd8\t\x0e\x03(2\x00\x00\x00'
+p736
+tp737
+Rp738
+sg29
+g626
+sg31
+I30
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=30'
+p739
+sg34
+Nsg35
+S'philhas...@gmail.com'
+p740
+sa(dp741
+g2
+S'assigned'
+p742
+sg4
+S"tinypy contains several references to the CPYTHON_MOD define in the source.\r\n This is done to work-around several issues.  I want to investigate if this\r\nis really needed, as I'd prefer tinypy to be just flexible enough to embed\r\nin this way without special handling.\r\n\r\n(That way, tinypy will be clear for embedding in other places, most likely.)\r\n\r\nI'd like this checked out before the release if possible."
+p743
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p744
+sg8
+S'remove CPYTHON_MOD ifdefs'
+p745
+sg10
+(lp746
+g12
+aS'Priority-Medium'
+p747
+ag670
+asg16
+(lp748
+sg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on September 14, 2008 03:43:01_\u000a\u000atinypy contains several references to the CPYTHON_MOD define in the source.\u000a This is done to work-around several issues.  I want to investigate if this\u000ais really needed, as I'd prefer tinypy to be just flexible enough to embed\u000ain this way without special handling.\u000a\u000a(That way, tinypy will be clear for embedding in other places, most likely.)\u000a\u000aI'd like this checked out before the release if possible.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=31_
+p749
+sg19
+g25
+(S'\x07\xd8\t\x0e\x03+\x01\x00\x00\x00'
+p750
+tp751
+Rp752
+sg29
+g626
+sg31
+I31
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=31'
+p753
+sg34
+Nsg35
+S'philhas...@gmail.com'
+p754
+sa(dp755
+g2
+S'invalid'
+p756
+sg4
+S'I tried 3 ways of printing, and tinypy doesn\'t match Python\'s behavior\r\n(only the last one works).  I didn\'t see anything about this in the docs. \r\nIn practice nearly all Python programs contain print statements, so this is\r\nlikely to be one of the first things that people run into when trying tinypy.\r\n\r\nAnd if you didn\'t know print is a special case in Python 2.x (which is a\r\nbit unfortunate and changing in Python 3000) -- it looks like you have\r\nimplemented it as a normal function.\r\n\r\n(Very cool project BTW)\r\n\r\ntinypy-read-only$ ./build/tinypy ../tinypy-test/hello.py\r\n\r\n\r\nException:\r\nerror: invalid statement\r\n   1: print \'hello world\'\r\n            ^\r\n\r\ntinypy-read-only$ ./build/tinypy ../tinypy-test/hello2.py\r\n\r\n\r\nException:\r\nerror: invalid statement\r\n   1: print "hello world"\r\n            ^\r\n\r\ntinypy-read-only$ ./build/tinypy ../tinypy-test/hello3.py\r\nhello world\r\n\r\ntinypy-read-only$ cat ../tinypy-test/hello3.py\r\nprint("hello world")'
+p757
+sg6
+S'[andyc...@gmail.com](https://code.google.com/u/106807596125327191648/)'
+p758
+sg8
+S'print statement needs documentation'
+p759
+sg10
+(lp760
+g12
+aS'Priority-Low'
+p761
+ag670
+ag15
+asg16
+(lp762
+(dp763
+g19
+S'September 14, 2008 07:44:41'
+p764
+sg4
+VCorrect, print was written as a function.  No support is planned for the 2.x way of\u000awriting print statements.\u000a\u000aCan someone document this?\u000a\u000a**Summary:** print statement needs documentation  \u000a  **Status:** Accepted  \u000a  **Labels:** -Type-Defect -Priority-Medium Type-Enhancement Priority-Low  \u000a
+p765
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p766
+sa(dp767
+g19
+S'March 03, 2009 05:25:23'
+p768
+sg4
+S'This is the correct behaviour for python 3.0+\r\n\r\nis tinypy based on this codebase, or was this purely by accident?'
+p769
+sg6
+S'[mikey.be@gmail.com](https://code.google.com/u/mikey.be@gmail.com/)'
+p770
+sa(dp771
+g19
+S'March 03, 2009 05:52:32'
+p772
+sg4
+S"I don't think there is any such need.After all it is subset of python.So it is\r\nunderstood."
+p773
+sg6
+S'[puneet0...@gmail.com](https://code.google.com/u/110330978033708387332/)'
+p774
+sa(dp775
+g19
+S'March 03, 2009 16:09:34'
+p776
+sg4
+VThis is by design.\u000a\u000a**Status:** Invalid  \u000a
+p777
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p778
+sasg23
+V_From [andyc...@gmail.com](https://code.google.com/u/106807596125327191648/) on September 14, 2008 11:54:34_\u000a\u000aI tried 3 ways of printing, and tinypy doesn't match Python's behavior\u000a(only the last one works).  I didn't see anything about this in the docs. \u000aIn practice nearly all Python programs contain print statements, so this is\u000alikely to be one of the first things that people run into when trying tinypy.\u000a\u000aAnd if you didn't know print is a special case in Python 2.x (which is a\u000abit unfortunate and changing in Python 3000) -- it looks like you have\u000aimplemented it as a normal function.\u000a\u000a(Very cool project BTW)\u000a\u000atinypy-read-only$ ./build/tinypy ../tinypy-test/hello.py\u000a\u000a\u000aException:\u000aerror: invalid statement\u000a   1: print 'hello world'\u000a            ^\u000a\u000atinypy-read-only$ ./build/tinypy ../tinypy-test/hello2.py\u000a\u000a\u000aException:\u000aerror: invalid statement\u000a   1: print "hello world"\u000a            ^\u000a\u000atinypy-read-only$ ./build/tinypy ../tinypy-test/hello3.py\u000ahello world\u000a\u000atinypy-read-only$ cat ../tinypy-test/hello3.py\u000aprint("hello world")\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=32_
+p779
+sg19
+g25
+(S'\x07\xd8\t\x0e\x0b6"\x00\x00\x00'
+p780
+tp781
+Rp782
+sg29
+g30
+sg31
+I32
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=32'
+p783
+sg34
+Nsg35
+g62
+sa(dp784
+g2
+S'assigned'
+p785
+sg4
+S'In this test case, I\'d expect the result to be "OK" .. Instead it just\r\nrepeats the previous exception.\r\n\r\n>>> t = tinypy.Tinypy()\r\n>>> t.execute("def x():x()\\nx()")\r\nTraceback (most recent call last):\r\n  File "<stdin>", line 1, in ?\r\ntinypy.error: (tp_frame) RuntimeError: stack overflow\r\n>>> t.execute("print(\'OK\')")\r\nTraceback (most recent call last):\r\n  File "<stdin>", line 1, in ?\r\ntinypy.error: (tp_frame) RuntimeError: stack overflow'
+p786
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p787
+sg8
+S'cpython errors are not reset'
+p788
+sg10
+(lp789
+g12
+aS'Priority-Medium'
+p790
+ag14
+asg16
+(lp791
+(dp792
+g19
+S'September 23, 2008 00:07:22'
+p793
+sg4
+S'Here the docs for PyErr_Clear(); can be found: http://docs.python.org/api/exceptions.html#l2h-25 http://docs.python.org/api/exceptions.html#l2h-25 http://docs.python.org/api/exceptionHandling.html#l2h-96'
+p794
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p795
+sa(dp796
+g19
+S'September 23, 2008 00:31:24'
+p797
+sg4
+VAttached is as a cpython unittest.\u000a\u000aCrashes on windows/mingw.  No time to debug further now.\u000a\u000a**Attachment:** [cpython_tests.py](http://code.google.com/p/tinypy/issues/detail?id=33#hc2)
+p798
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p799
+sasg23
+V_From [philhas...@gmail.com](https://code.google.com/u/115283698152321681798/) on September 17, 2008 17:50:05_\u000a\u000aIn this test case, I'd expect the result to be "OK" .. Instead it just\u000arepeats the previous exception.\u000a\u000a>>> t = tinypy.Tinypy()\u000a>>> t.execute("def x():x()\u005cnx()")\u000aTraceback (most recent call last):\u000a  File "<stdin>", line 1, in ?\u000atinypy.error: (tp_frame) RuntimeError: stack overflow\u000a>>> t.execute("print('OK')")\u000aTraceback (most recent call last):\u000a  File "<stdin>", line 1, in ?\u000atinypy.error: (tp_frame) RuntimeError: stack overflow\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=33_
+p800
+sg19
+g25
+(S'\x07\xd8\t\x11\x112\x05\x00\x00\x00'
+p801
+tp802
+Rp803
+sg29
+g626
+sg31
+I33
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=33'
+p804
+sg34
+Nsg35
+g62
+sa(dp805
+g2
+S'new'
+p806
+sg4
+S'Details of a cpython script which can crash tinypy/python. http://groups.google.com/group/tinypy/browse_thread/thread/9d7eac41fbe6b157'
+p807
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p808
+sg8
+S'crashes with threads stress test.'
+p809
+sg10
+(lp810
+g12
+aS'Priority-Low'
+p811
+ag14
+asg16
+(lp812
+(dp813
+g19
+S'September 23, 2008 08:07:58'
+p814
+sg4
+VChanged priority to low, since we don't need this fixed for the release.\u000a\u000a- Might be nice for the next release?  \u000a\u000a- Should be wrapped into the unit tests that are being added for the cpython module. \u000a\u000a- Shouldn't depend on pygame for tests though, as that's not part of the vanilla\u000apython install.\u000a\u000a**Labels:** -Priority-Medium Priority-Low  \u000a
+p815
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p816
+sa(dp817
+g19
+S'September 23, 2008 17:48:10'
+p818
+sg4
+S'hi,\r\n\r\nRemoving the static keyword fixes this.  Static things are global, which of course\r\ncauses issues with threads.\r\n\r\ncheers,'
+p819
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p820
+sasg23
+V_From [ren...@gmail.com](https://code.google.com/u/113016169502668158732/) on September 23, 2008 07:08:31_\u000a\u000aDetails of a cpython script which can crash tinypy/python. http://groups.google.com/group/tinypy/browse_thread/thread/9d7eac41fbe6b157\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=34_
+p821
+sg19
+g25
+(S'\x07\xd8\t\x17\x07\x08\x1f\x00\x00\x00'
+p822
+tp823
+Rp824
+sg29
+g626
+sg31
+I34
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=34'
+p825
+sg34
+Nsg35
+g62
+sa(dp826
+g2
+S'new'
+p827
+sg4
+S"The cpython module doesn't seem to have any unittests, examples or docs.\r\n\r\nMore information here: http://groups.google.com/group/tinypy/browse_thread/thread/67908894bff0fba9"
+p828
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p829
+sg8
+S'cpython module needs unittests, examples, and docs.'
+p830
+sg10
+(lp831
+g12
+aS'Priority-Medium'
+p832
+ag14
+asg16
+(lp833
+(dp834
+g19
+S'September 23, 2008 17:49:23'
+p835
+sg4
+S"I've been writing some, will post what I have in the next couple of days.\r\n\r\nOr see above link for file to add your own tests to."
+p836
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p837
+sa(dp838
+g19
+S'September 24, 2008 05:50:32'
+p839
+sg4
+S"hi,\r\n\r\nHere's some updates... http://rene.f0o.com/~rene/cpython.c http://rene.f0o.com/~rene/cpython_tests.py Fixes the re-raising of exceptions.  It was tinypy code fault, not the cpython codes\r\nfault.  So someone who knows tinpy better should have a look.\r\n\r\nIt runs all the tests from tinypy inside a cpython unittest, plus some other tests.\r\n\r\nThere was an issue with setjmp on mingw as well.  Haven't tested on other\r\nplatforms... but it *should* be ok... I think.\r\n\r\nNote, that setjmp/longjmp should be made into tp_setjmp/tp_longjmp.  Because you need\r\nto use different functions on different platforms... like sigsetjmp if using posix\r\nsignals(like in cpython).\r\n\r\nThe threading is disabled... because the macros can't be used... need to do that\r\nstuff manually to work with the setjmp.\r\n\r\nNeeds more documentation...  and think about how multiple execute calls work(reset\r\ntime/memory limits or not?).\r\n\r\ncheers,"
+p840
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p841
+sasg23
+V_From [ren...@gmail.com](https://code.google.com/u/113016169502668158732/) on September 23, 2008 07:09:56_\u000a\u000aThe cpython module doesn't seem to have any unittests, examples or docs.\u000a\u000aMore information here: http://groups.google.com/group/tinypy/browse_thread/thread/67908894bff0fba9\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=35_
+p842
+sg19
+g25
+(S'\x07\xd8\t\x17\x07\t8\x00\x00\x00'
+p843
+tp844
+Rp845
+sg29
+g626
+sg31
+I35
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=35'
+p846
+sg34
+Nsg35
+g62
+sa(dp847
+g2
+S'new'
+p848
+sg4
+S"hi,\r\n\r\nvsprintf doesn't check the length of the string, whereas vsnprintf does.\r\n\r\nSo it's better to use vsnprintf instead, to avoid buffer overruns.\r\n\r\nstring.c:53\r\n\r\n\r\ncheers,"
+p849
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p850
+sg8
+S'use vsnprintf instead of vsprintf'
+p851
+sg10
+(lp852
+g12
+aS'Priority-Medium'
+p853
+ag14
+asg16
+(lp854
+(dp855
+g19
+S'September 24, 2008 21:16:21'
+p856
+sg4
+S'As an additional note...  the fmt argument needs to be validated.  So all uses of\r\ntp_printf need to make sure they are getting fmt from a trusted source.\r\n\r\n"""\r\n     %n can be used to write arbitrary data to potentially carefully-selected\r\n     addresses.  Programmers are therefore strongly advised to never pass\r\n     untrusted strings as the format argument, as an attacker can put format\r\n     specifiers in the string to mangle your stack, leading to a possible\r\n     security hole.  This holds true even if the string was built using a\r\n     function like snprintf(), as the resulting string may still contain user-\r\n     supplied conversion specifiers for later interpolation by printf().\r\n"""'
+p857
+sg6
+S'[ren...@gmail.com](https://code.google.com/u/113016169502668158732/)'
+p858
+sasg23
+V_From [ren...@gmail.com](https://code.google.com/u/113016169502668158732/) on September 25, 2008 04:10:47_\u000a\u000ahi,\u000a\u000avsprintf doesn't check the length of the string, whereas vsnprintf does.\u000a\u000aSo it's better to use vsnprintf instead, to avoid buffer overruns.\u000a\u000astring.c:53\u000a\u000a\u000acheers,\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=36_
+p859
+sg19
+g25
+(S'\x07\xd8\t\x19\x04\n/\x00\x00\x00'
+p860
+tp861
+Rp862
+sg29
+g626
+sg31
+I36
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=36'
+p863
+sg34
+Nsg35
+g62
+sa(dp864
+g2
+S'invalid'
+p865
+sg4
+S'What steps will reproduce the problem? 1. Try to build on OS/X\r\n2. python setup.py linux\r\n3. almost works What is the expected output? What do you see instead? I see complaints about -Wc++compat\r\nRemoving the flag from the compile options for linux yields a usable version What version of the product are you using? On what operating system? 1.1 Please provide any additional information below.'
+p866
+sg6
+S'[sean.t...@gmail.com](https://code.google.com/u/102629748841881980656/)'
+p867
+sg8
+S'Build issie on OS/X'
+p868
+sg10
+(lp869
+g12
+aS'Priority-Medium'
+p870
+ag14
+ag15
+asg16
+(lp871
+(dp872
+g19
+S'October 27, 2008 14:16:26'
+p873
+sg4
+S'Issie is like issue.'
+p874
+sg6
+S'[sean.t...@gmail.com](https://code.google.com/u/102629748841881980656/)'
+p875
+sa(dp876
+g19
+S'October 27, 2008 14:23:07'
+p877
+sg4
+VThere are 2 problems here.\u000a\u000a1: it doesn't look like the latest version is being used, as the way to build with\u000athe current trunk is "python setup.py tinypy" and OS is detected automatically.\u000a\u000a2: you want to build for OSX, not linux (ie. "python setup.py osx".) the linux\u000avariables are, of course, not going to be the right ones for OSX.\u000a\u000a**Status:** Invalid  \u000a  **Owner:** ulfada  \u000a
+p878
+sg6
+S'[ulf...@gmail.com](https://code.google.com/u/115251497124153393833/)'
+p879
+sasg23
+V_From [sean.t...@gmail.com](https://code.google.com/u/102629748841881980656/) on October 27, 2008 21:16:01_\u000a\u000aWhat steps will reproduce the problem? 1. Try to build on OS/X\u000a2. python setup.py linux\u000a3. almost works What is the expected output? What do you see instead? I see complaints about -Wc++compat\u000aRemoving the flag from the compile options for linux yields a usable version What version of the product are you using? On what operating system? 1.1 Please provide any additional information below.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=37_
+p880
+sg19
+g25
+(S'\x07\xd8\n\x1b\x15\x10\x01\x00\x00\x00'
+p881
+tp882
+Rp883
+sg29
+g30
+sg31
+I37
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=37'
+p884
+sg34
+Nsg35
+S'ulf...@gmail.com'
+p885
+sa(dp886
+g2
+S'new'
+p887
+sg4
+S"Here is a patch for setup.py to build tinypy 1.1 with SDL on MacOS X using command\r\n\r\n% python setup.py macosx [pygame].\r\n\r\nTwo files are attached, File setupX.py is the modified setup.py file and file  setupX.py.diff is the \r\nforward diff with the original setup.py file from tinypy-1.1.\r\n\r\nNote the comment about installing SDL for MacOS X inside the build_macosx function.\r\n\r\nDisclaimer.  Tested only on MacOS X 10.4.11 (Intel) using Apple's gcc version 4.0.1 (Apple \r\nComputer, Inc. build 5367) and Python 2.5.2 from ActivePython 2.5.2.2 (ActiveState Software \r\nInc.).\r\n\r\n/Jean Brouwers"
+p888
+sg6
+S'[MrJean1@gmail.com](https://code.google.com/u/MrJean1@gmail.com/)'
+p889
+sg8
+S'Building tinypy 1.1 on MacOS X'
+p890
+sg10
+(lp891
+g12
+aS'Priority-Medium'
+p892
+ag14
+asg16
+(lp893
+sg23
+V_From [MrJean1@gmail.com](https://code.google.com/u/MrJean1@gmail.com/) on October 30, 2008 21:26:27_\u000a\u000aHere is a patch for setup.py to build tinypy 1.1 with SDL on MacOS X using command\u000a\u000a% python setup.py macosx [pygame].\u000a\u000aTwo files are attached, File setupX.py is the modified setup.py file and file  setupX.py.diff is the \u000aforward diff with the original setup.py file from tinypy-1.1.\u000a\u000aNote the comment about installing SDL for MacOS X inside the build_macosx function.\u000a\u000aDisclaimer.  Tested only on MacOS X 10.4.11 (Intel) using Apple's gcc version 4.0.1 (Apple \u000aComputer, Inc. build 5367) and Python 2.5.2 from ActivePython 2.5.2.2 (ActiveState Software \u000aInc.).\u000a\u000a/Jean Brouwers\u000a\u000a**Attachment:** [setupX.py setupX.py.diff](http://code.google.com/p/tinypy/issues/detail?id=38)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=38_
+p894
+sg19
+g25
+(S'\x07\xd8\n\x1e\x15\x1a\x1b\x00\x00\x00'
+p895
+tp896
+Rp897
+sg29
+g626
+sg31
+I38
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=38'
+p898
+sg34
+Nsg35
+g62
+sa(dp899
+g2
+S'new'
+p900
+sg4
+S"I've looked at build_vs in setup.py and there's a file generated called\r\nmymain.c, but it's not used during compilation of the tinypy.exe..."
+p901
+sg6
+S'[kai.jour...@gmail.com](https://code.google.com/u/118013124631383056161/)'
+p902
+sg8
+S'vs-build broken?'
+p903
+sg10
+(lp904
+g12
+aS'Priority-Medium'
+p905
+ag14
+asg16
+(lp906
+sg23
+V_From [kai.jour...@gmail.com](https://code.google.com/u/118013124631383056161/) on December 29, 2008 15:20:14_\u000a\u000aI've looked at build_vs in setup.py and there's a file generated called\u000amymain.c, but it's not used during compilation of the tinypy.exe...\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=39_
+p907
+sg19
+g25
+(S'\x07\xd8\x0c\x1d\x0f\x14\x0e\x00\x00\x00'
+p908
+tp909
+Rp910
+sg29
+g626
+sg31
+I39
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=39'
+p911
+sg34
+Nsg35
+g62
+sa(dp912
+g2
+S'new'
+p913
+sg4
+S'Would it be possible to fully support\r\ncompiling tinypy with the tcc compiler ?\r\n\r\nSee: http://bellard.org/tcc/'
+p914
+sg6
+S'[prolo...@shortcircuit.net.au](https://code.google.com/u/113109086883263035298/)'
+p915
+sg8
+S'tcc support'
+p916
+sg10
+(lp917
+g12
+aS'Priority-Medium'
+p918
+ag14
+asg16
+(lp919
+(dp920
+g19
+S'January 13, 2009 15:18:17'
+p921
+sg4
+S'Sorry this was suppose to be an enhancement!'
+p922
+sg6
+S'[prolo...@shortcircuit.net.au](https://code.google.com/u/113109086883263035298/)'
+p923
+sasg23
+V_From [prolo...@shortcircuit.net.au](https://code.google.com/u/113109086883263035298/) on January 13, 2009 23:17:09_\u000a\u000aWould it be possible to fully support\u000acompiling tinypy with the tcc compiler ?\u000a\u000aSee: http://bellard.org/tcc/\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=40_
+p924
+sg19
+g25
+(S'\x07\xd9\x01\r\x17\x11\t\x00\x00\x00'
+p925
+tp926
+Rp927
+sg29
+g626
+sg31
+I40
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=40'
+p928
+sg34
+Nsg35
+g62
+sa(dp929
+g2
+S'new'
+p930
+sg4
+S'What steps will reproduce the problem? 1. $python setup.py build What is the expected output? What do you see instead? OK. What version of the product are you using? On what operating system? SVN r143 Please provide any additional information below. I am running osx leopard 10.5.6 with gcc 4.0, and Fedora dist linux:\r\n$ cat /proc/version\r\nLinux version 2.6.26cslabs (root@domain) (gcc version 4.3.0 20080428 (Red Hat 4.3.0-8) (GCC) ) #1 SMP Tue Sep 30 17:35:22 PDT 2008'
+p931
+sg6
+S'[Xeno.Zh...@gmail.com](https://code.google.com/u/111504483448082499994/)'
+p932
+sg8
+S'Compile error when build CPython module'
+p933
+sg10
+(lp934
+g12
+aS'Priority-Medium'
+p935
+ag14
+asg16
+(lp936
+(dp937
+g19
+S'October 19, 2009 17:54:50'
+p938
+sg4
+S"I've got this error right now. Just add #ifdef TP_SANDBOX [...] #endif wrapping all \r\nthe content from file tinypy/sandbox.c."
+p939
+sg6
+S'[dirley...@gmail.com](https://code.google.com/u/114344350124821677654/)'
+p940
+sasg23
+V_From [Xeno.Zh...@gmail.com](https://code.google.com/u/111504483448082499994/) on March 18, 2009 20:48:21_\u000a\u000aWhat steps will reproduce the problem? 1. $python setup.py build What is the expected output? What do you see instead? OK. What version of the product are you using? On what operating system? SVN r143 Please provide any additional information below. I am running osx leopard 10.5.6 with gcc 4.0, and Fedora dist linux:\u000a$ cat /proc/version\u000aLinux version 2.6.26cslabs (root@domain) (gcc version 4.3.0 20080428 (Red Hat 4.3.0-8) (GCC) ) #1 SMP Tue Sep 30 17:35:22 PDT 2008\u000a\u000a**Attachment:** [error.darwin.txt error.linux.txt](http://code.google.com/p/tinypy/issues/detail?id=41)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=41_
+p941
+sg19
+g25
+(S'\x07\xd9\x03\x12\x140\x15\x00\x00\x00'
+p942
+tp943
+Rp944
+sg29
+g626
+sg31
+I41
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=41'
+p945
+sg34
+Nsg35
+g62
+sa(dp946
+g2
+S'fixed'
+p947
+sg4
+S'(I\'m using SVN trunk.)\r\n\r\nThe \'not\' operator only works for numbers.  The following code works as\r\nexpected and prints "OK":\r\n\r\n  n = 0\r\n  if not n:\r\n    print(\'OK\')\r\n\r\nHowever, it doesn\'t work for empty dicts, lists, or strings.  The following\r\ncode fails to print "OK" for any of the tests:\r\n\r\n  d = {}\r\n  if not d:\r\n    print(\'OK\')\r\n  l = []\r\n  if not l:\r\n    print(\'OK\')\r\n  s = \'\'\r\n  if not s:\r\n    print(\'OK\')\r\n\r\nInternally, the bytecode that gets generated is:\r\n  NUMBER 0\r\n  STRING "s"\r\n  GGET\r\n  EQ\r\n(The responsible code is encode.py, line 248.)\r\n\r\n---\r\n\r\nI\'ve only just started looking at tinypy and the internals.  If the\r\ninternal tp_bool() function (in ops.c) were to be exposed (say, as a\r\nbuiltin named \'bool\'), then \'not\' could be implemented as:\r\n  NUMBER 0\r\n  STRING "s"\r\n  GGET\r\n  call bool() here\r\n  EQ\r\n...which would behave as expected.\r\n\r\nI\'m planning on submitting a patch to do this in the next few days.  I was\r\nsurprised to see that there isn\'t actually a bool type in tinypy.  What are\r\nyour views on adding it?  I am rather tempted to submit a patch for this as\r\nwell...'
+p948
+sg6
+S'[kiwid...@gmail.com](https://code.google.com/u/103876223278583701106/)'
+p949
+sg8
+S"'not' operator only works for numbers, not strings or lists"
+p950
+sg10
+(lp951
+g12
+aS'Component-Logic'
+p952
+aS'Priority-Medium'
+p953
+ag14
+asg16
+(lp954
+(dp955
+g19
+S'April 09, 2009 03:27:16'
+p956
+sg4
+VAttached is a patch to tinypy r143 which fixes the issues with the logical operators\u000aand/or/not.  Changes:\u000a\u000a * renamed the arithmetic AND/OR/NOT opcodes and the tp_and/tp_or/tp_xor functions to\u000aBITAND/BITOR/BITNOT and tp_bitwise_and/or/xor, to make it clear that they are not\u000alogical operators.  \u000a * added a new IFN opcode, which is the inverse of the existing IF opcode.\u000a * added a new NOT opcode, which uses tp_bool() to determine the truthiness of the\u000aoperand and inverts it.\u000a * changed the bytecode generated for logical and/or to evaluate the left-hand\u000aexpression, check it for truthiness (using IF for and, IFN for or) and skip\u000aevaluating the right-hand expression if needed [short-circuited].  The return value\u000aof 'expr_a AND expr_b' is either expr_a or expr_b (not a logical 0 or 1), just like\u000ain bigpy.\u000a * changed the bytecode generated for logical not to use the new NOT opcode.\u000a * exposed the internal tp_bool() function as the builtin 'bool'.\u000a\u000aThe behaviour of logical and/or/not is now consistent with both what is expected and\u000awith bigpy.\u000a\u000a**Attachment:** [01-tinypy-fix-logic-ops.patch](http://code.google.com/p/tinypy/issues/detail?id=42#hc1)
+p957
+sg6
+S'[kiwid...@gmail.com](https://code.google.com/u/103876223278583701106/)'
+p958
+sa(dp959
+g19
+S'May 12, 2009 09:28:18'
+p960
+sg4
+VI have verified this Issue and have merged kiwidrew's patch. plus, in\u000atinypy/tests.py, following line:\u000a\u000asystem(TINYPY+fname+' > tmp.txt')\u000a\u000ais not right, since when running tests.py, the working directory is\u000a$(TOPDIR)/tinypy/, while TINYPY is defined as './tinypy'. It should be changed to\u000aright path of executable tinypy. Thus, I changed this statement as:\u000a\u000asystem("../build/tinypy "+fname+' > tmp.txt')\u000a\u000aMaybe there's better way around this problem.\u000a\u000aSome test cases is added in tests.py.\u000a\u000a**Status:** Fixed  \u000a  **Labels:** Component-Logic  \u000a
+p961
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p962
+sasg23
+V_From [kiwid...@gmail.com](https://code.google.com/u/103876223278583701106/) on April 08, 2009 12:15:48_\u000a\u000a(I'm using SVN trunk.)\u000a\u000aThe 'not' operator only works for numbers.  The following code works as\u000aexpected and prints "OK":\u000a\u000a  n = 0\u000a  if not n:\u000a    print('OK')\u000a\u000aHowever, it doesn't work for empty dicts, lists, or strings.  The following\u000acode fails to print "OK" for any of the tests:\u000a\u000a  d = {}\u000a  if not d:\u000a    print('OK')\u000a  l = []\u000a  if not l:\u000a    print('OK')\u000a  s = ''\u000a  if not s:\u000a    print('OK')\u000a\u000aInternally, the bytecode that gets generated is:\u000a  NUMBER 0\u000a  STRING "s"\u000a  GGET\u000a  EQ\u000a(The responsible code is encode.py, line 248.)\u000a\u000a---\u000a\u000aI've only just started looking at tinypy and the internals.  If the\u000ainternal tp_bool() function (in ops.c) were to be exposed (say, as a\u000abuiltin named 'bool'), then 'not' could be implemented as:\u000a  NUMBER 0\u000a  STRING "s"\u000a  GGET\u000a  call bool() here\u000a  EQ\u000a...which would behave as expected.\u000a\u000aI'm planning on submitting a patch to do this in the next few days.  I was\u000asurprised to see that there isn't actually a bool type in tinypy.  What are\u000ayour views on adding it?  I am rather tempted to submit a patch for this as\u000awell...\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=42_
+p963
+sg19
+g25
+(S'\x07\xd9\x04\x08\x0c\x0f0\x00\x00\x00'
+p964
+tp965
+Rp966
+sg29
+g30
+sg31
+I42
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=42'
+p967
+sg34
+Nsg35
+g62
+sa(dp968
+g2
+S'new'
+p969
+sg4
+S'Here the code.\r\n\r\n1 try:\r\n2     raise "a"\r\n3 except e:\r\n4     print e What is the expected output? What do you see instead? Should print ...\r\n\r\n| a\r\n\r\nInstead, this exception occured :\r\n\r\n| (_tp_dict_get) KeyError: e\r\n\r\nat line of 4 What version of the product are you using? On what operating system? Version : from SVN, revision 146 OS : Linux Fedora Please provide any additional information below. As you understood, e does not exist in the "except" context. I cannot get\r\nthe catched exception.'
+p970
+sg6
+S'[arab.ga...@gmail.com](https://code.google.com/u/104497716455404187931/)'
+p971
+sg8
+S'cannot catch an exception'
+p972
+sg10
+(lp973
+g12
+aS'Priority-Medium'
+p974
+ag14
+asg16
+(lp975
+(dp976
+g19
+S'February 05, 2010 01:18:48'
+p977
+sg4
+S'I think this error is normal.  The first token after the except keyword should be the\r\ntype of the exception we are looking for. e.g. :\r\n\r\nclass A:\r\n    pass\r\n\r\ntry:\r\n    raise A()\r\nexcept A, ex:\r\n    print(ex)\r\n\r\n\r\nThis code also fails with tinypy, but in the print(ex) statement.\r\n\r\nI also noticed that putting several exception clauses is not handled, e.g. :\r\n\r\nclass A: pass\r\nclass B: pass\r\n\r\ntry:\r\n    raise B()\r\nexcept A: print("got A")\r\nexcept B: print("got B")\r\n\r\n\r\nwill print "got A" instead of "got B"'
+p978
+sg6
+S'[charlie...@gmail.com](https://code.google.com/u/107490111458524840121/)'
+p979
+sa(dp980
+g19
+S'February 05, 2010 08:19:13'
+p981
+sg4
+VA first attempt to solve the issue.  With this patch we can run example like this one :\u000a\u000aclass A:\u000a    def msg(self):\u000a        return "hello"\u000a\u000atry:\u000a    raise A()\u000aexcept A, ex:\u000a    print("got this :", ex.msg())\u000a\u000a\u000aThe parenthesis in the raise are important, because tinypy won't automatically\u000ainstantiate A() like cpython would do.\u000a\u000a**Attachment:** [handle-exception-variable.patch](http://code.google.com/p/tinypy/issues/detail?id=43#hc2)
+p982
+sg6
+S'[charlie...@gmail.com](https://code.google.com/u/107490111458524840121/)'
+p983
+sa(dp984
+g19
+S'February 09, 2010 21:58:40'
+p985
+sg4
+VThis second patch works with python 3 syntax (except X as x)\u000a\u000a**Attachment:** [handle-exception-variable-2.patch](http://code.google.com/p/tinypy/issues/detail?id=43#hc3)
+p986
+sg6
+S'[charlie...@gmail.com](https://code.google.com/u/107490111458524840121/)'
+p987
+sasg23
+V_From [arab.ga...@gmail.com](https://code.google.com/u/104497716455404187931/) on July 10, 2009 18:11:12_\u000a\u000aHere the code.\u000a\u000a1 try:\u000a2     raise "a"\u000a3 except e:\u000a4     print e What is the expected output? What do you see instead? Should print ...\u000a\u000a| a\u000a\u000aInstead, this exception occured :\u000a\u000a| (_tp_dict_get) KeyError: e\u000a\u000aat line of 4 What version of the product are you using? On what operating system? Version : from SVN, revision 146 OS : Linux Fedora Please provide any additional information below. As you understood, e does not exist in the "except" context. I cannot get\u000athe catched exception.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=43_
+p988
+sg19
+g25
+(S'\x07\xd9\x07\n\x12\x0b\x0c\x00\x00\x00'
+p989
+tp990
+Rp991
+sg29
+g626
+sg31
+I43
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=43'
+p992
+sg34
+Nsg35
+g62
+sa(dp993
+g2
+S'new'
+p994
+sg4
+S"I wanted to use this, but it turns out you use longjmp... It's a pity. Many\r\nscripting languages seem perfectly capable of handling exceptions without\r\nsetjmp/longjmp. Anyway, if I may make a feature request, that'd be it. I've\r\nbeen looking for a reasonably small Python implementation for a long time."
+p995
+sg6
+S'[xoc...@gmail.com](https://code.google.com/u/100884830331764853848/)'
+p996
+sg8
+S'longjmp'
+p997
+sg10
+(lp998
+g12
+aS'Priority-Medium'
+p999
+ag14
+asg16
+(lp1000
+(dp1001
+g19
+S'March 24, 2011 11:59:25'
+p1002
+sg4
+S'Style is not a feature. This request is stupid.'
+p1003
+sg6
+S'[FeepingC...@gmail.com](https://code.google.com/u/108584092625699171120/)'
+p1004
+sasg23
+V_From [xoc...@gmail.com](https://code.google.com/u/100884830331764853848/) on July 19, 2009 06:06:58_\u000a\u000aI wanted to use this, but it turns out you use longjmp... It's a pity. Many\u000ascripting languages seem perfectly capable of handling exceptions without\u000asetjmp/longjmp. Anyway, if I may make a feature request, that'd be it. I've\u000abeen looking for a reasonably small Python implementation for a long time.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=44_
+p1005
+sg19
+g25
+(S'\x07\xd9\x07\x13\x06\x06:\x00\x00\x00'
+p1006
+tp1007
+Rp1008
+sg29
+g626
+sg31
+I44
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=44'
+p1009
+sg34
+Nsg35
+g62
+sa(dp1010
+g2
+S'fixed'
+p1011
+sg4
+S"What steps will reproduce the problem? 1. in the top dir, execute:\r\npython setup.py blob\r\n\r\n2. then enter build/ subdir, execute:\r\ngcc -o tinypy.o -c tinypy.c What is the expected output? What do you see instead? It shoud have compiled out tinypy.o normally, but it didn't, meanwhile it\r\ncomplains:\r\n\r\nwill complain:\r\n\r\ntinypy.c:6378: error: expected declaration specifiers or '...' before\r\nnumeric constant\r\ntinypy.c:6378: error: conflicting types for 'calloc'\r\ntinypy.c: In function 'calloc':\r\ntinypy.c:6379: error: too many arguments to function 'calloc'\r\ntinypy.c:6382: error: 'tp' undeclared (first use in this function)\r\ntinypy.c:6382: error: (Each undeclared identifier is reported only once\r\ntinypy.c:6382: error: for each function it appears in.)\r\ntinypy.c: In function 'free':\r\ntinypy.c:6392: error: 'tp' undeclared (first use in this function)\r\ntinypy.c: In function 'realloc':\r\ntinypy.c:6405: error: 'tp' undeclared (first use in this function)\r\ntinypy.c:6414: error: too many arguments to function 'calloc' Please use labels and text to provide additional information. blob, embedding, libtinypy.a"
+p1012
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p1013
+sg8
+S'build libtinypy.a error for embedding'
+p1014
+sg10
+(lp1015
+g12
+aS'OpSys-All'
+p1016
+aS'Priority-Medium'
+p1017
+ag14
+asg16
+(lp1018
+(dp1019
+g19
+S'November 11, 2009 03:07:05'
+p1020
+sg4
+VI have fixed this bug and tested it.\u000a\u000a**Status:** Fixed  \u000a
+p1021
+sg6
+S'[ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/)'
+p1022
+sasg23
+V_From [ybc2084@gmail.com](https://code.google.com/u/ybc2084@gmail.com/) on November 11, 2009 10:54:08_\u000a\u000aWhat steps will reproduce the problem? 1. in the top dir, execute:\u000apython setup.py blob\u000a\u000a2. then enter build/ subdir, execute:\u000agcc -o tinypy.o -c tinypy.c What is the expected output? What do you see instead? It shoud have compiled out tinypy.o normally, but it didn't, meanwhile it\u000acomplains:\u000a\u000awill complain:\u000a\u000atinypy.c:6378: error: expected declaration specifiers or '...' before\u000anumeric constant\u000atinypy.c:6378: error: conflicting types for 'calloc'\u000atinypy.c: In function 'calloc':\u000atinypy.c:6379: error: too many arguments to function 'calloc'\u000atinypy.c:6382: error: 'tp' undeclared (first use in this function)\u000atinypy.c:6382: error: (Each undeclared identifier is reported only once\u000atinypy.c:6382: error: for each function it appears in.)\u000atinypy.c: In function 'free':\u000atinypy.c:6392: error: 'tp' undeclared (first use in this function)\u000atinypy.c: In function 'realloc':\u000atinypy.c:6405: error: 'tp' undeclared (first use in this function)\u000atinypy.c:6414: error: too many arguments to function 'calloc' Please use labels and text to provide additional information. blob, embedding, libtinypy.a\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=45_
+p1023
+sg19
+g25
+(S'\x07\xd9\x0b\x0b\n6\x08\x00\x00\x00'
+p1024
+tp1025
+Rp1026
+sg29
+g30
+sg31
+I45
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=45'
+p1027
+sg34
+Nsg35
+S'ybc2084@gmail.com'
+p1028
+sa(dp1029
+g2
+S'new'
+p1030
+sg4
+S'What steps will reproduce the problem? 1. downloaded wicd went to install was missing python\r\n2. downloaded python would not install downloaded tinypy\r\n3. got error expected missing ] error 422 lines= x.strip()for x in line What is the expected output? What do you see instead? thought tinypy would install wicd What version of the product are you using? On what operating system? latest Please provide any additional information below. not sure if this would work but wanted to install program in lieu of what\r\npuppy linux is using'
+p1031
+sg6
+S'[jwednes...@gmail.com](https://code.google.com/u/116171453992523443776/)'
+p1032
+sg8
+S'tinypy and wicd to install on puppy linux'
+p1033
+sg10
+(lp1034
+g12
+aS'Priority-Medium'
+p1035
+ag14
+asg16
+(lp1036
+sg23
+V_From [jwednes...@gmail.com](https://code.google.com/u/116171453992523443776/) on January 04, 2010 00:06:12_\u000a\u000aWhat steps will reproduce the problem? 1. downloaded wicd went to install was missing python\u000a2. downloaded python would not install downloaded tinypy\u000a3. got error expected missing ] error 422 lines= x.strip()for x in line What is the expected output? What do you see instead? thought tinypy would install wicd What version of the product are you using? On what operating system? latest Please provide any additional information below. not sure if this would work but wanted to install program in lieu of what\u000apuppy linux is using\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=46_
+p1037
+sg19
+g25
+(S'\x07\xda\x01\x04\x00\x06\x0c\x00\x00\x00'
+p1038
+tp1039
+Rp1040
+sg29
+g626
+sg31
+I46
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=46'
+p1041
+sg34
+Nsg35
+g62
+sa(dp1042
+g2
+S'new'
+p1043
+sg4
+S'What steps will reproduce the problem? 1. first build using "python setup.py linux",\r\n2. now try to do ./build/tinypy, 3. What is the expected output? What do you see instead? Exception\r\ntp_get: KeyError: 0 What version of the product are you using? On what operating system? 1.1, Ubuntu 9.10 X86_64, Python 2.6.4, 4.4.1 Please provide any additional information below. The same thing happens for 64k classic version of tinypy'
+p1044
+sg6
+S'[ankurado...@gmail.com](https://code.google.com/u/107698246505971998359/)'
+p1045
+sg8
+S'tinypy throws and exception on Ubuntu 9.10 X86_64'
+p1046
+sg10
+(lp1047
+g12
+aS'Priority-Medium'
+p1048
+ag14
+asg16
+(lp1049
+(dp1050
+g19
+S'January 20, 2010 08:27:03'
+p1051
+sg4
+S"It's gcc-4.4.1"
+p1052
+sg6
+S'[ankurado...@gmail.com](https://code.google.com/u/107698246505971998359/)'
+p1053
+sa(dp1054
+g19
+S'January 20, 2010 09:12:53'
+p1055
+sg4
+S"tinypy expects a script argument:\r\n\r\n./build/tinypy test.py\r\n\r\nIt doesn't have an interactive interpreter at present.  Although a better error message would probably be nicer \r\nhere."
+p1056
+sg6
+S'[philhas...@gmail.com](https://code.google.com/u/115283698152321681798/)'
+p1057
+sasg23
+V_From [ankurado...@gmail.com](https://code.google.com/u/107698246505971998359/) on January 20, 2010 16:25:09_\u000a\u000aWhat steps will reproduce the problem? 1. first build using "python setup.py linux",\u000a2. now try to do ./build/tinypy, 3. What is the expected output? What do you see instead? Exception\u000atp_get: KeyError: 0 What version of the product are you using? On what operating system? 1.1, Ubuntu 9.10 X86_64, Python 2.6.4, 4.4.1 Please provide any additional information below. The same thing happens for 64k classic version of tinypy\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=47_
+p1058
+sg19
+g25
+(S'\x07\xda\x01\x14\x10\x19\t\x00\x00\x00'
+p1059
+tp1060
+Rp1061
+sg29
+g626
+sg31
+I47
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=47'
+p1062
+sg34
+Nsg35
+g62
+sa(dp1063
+g2
+S'new'
+p1064
+sg4
+S"What steps will reproduce the problem? run the following code :\r\n\r\n  print(len(range(2**32 + 1))) What is the expected output? What do you see instead? I think we should get an overflow error (list can't be longer than the\r\nmax int value), instead we get '0' What version of the product are you using? On what operating system? svn version : trunk@157, on ubuntu using a 64bit computer Please provide any additional information below. in the code of tp_range (builtins.c), we convert the arguments from\r\ndouble to int without any check."
+p1065
+sg6
+S'[charlie...@gmail.com](https://code.google.com/u/107490111458524840121/)'
+p1066
+sg8
+S'range(n) return an empty list for n > MAX_INT'
+p1067
+sg10
+(lp1068
+g12
+aS'Priority-Medium'
+p1069
+ag14
+asg16
+(lp1070
+(dp1071
+g19
+S'February 05, 2010 02:35:10'
+p1072
+sg4
+S"I think the problem might not be so much in max list size as in the computer memory\r\n(although I don't actively participate in the dev -- yet -- so I can't tell) - I\r\nagree that tinypy should raise an error though (perhaps an out of memory error?)"
+p1073
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1074
+sa(dp1075
+g19
+S'February 05, 2010 07:01:34'
+p1076
+sg4
+VI attach a patch that should fix the problem.  We should add a test case before\u000alanding it though.\u000a\u000a**Attachment:** [0001-range-raises-an-error-if-N-is-too-high.patch](http://code.google.com/p/tinypy/issues/detail?id=48#hc2)
+p1077
+sg6
+S'[charlie...@gmail.com](https://code.google.com/u/107490111458524840121/)'
+p1078
+sasg23
+V_From [charlie...@gmail.com](https://code.google.com/u/107490111458524840121/) on February 05, 2010 09:25:51_\u000a\u000aWhat steps will reproduce the problem? run the following code :\u000a\u000a  print(len(range(2**32 + 1))) What is the expected output? What do you see instead? I think we should get an overflow error (list can't be longer than the\u000amax int value), instead we get '0' What version of the product are you using? On what operating system? svn version : trunk@157, on ubuntu using a 64bit computer Please provide any additional information below. in the code of tp_range (builtins.c), we convert the arguments from\u000adouble to int without any check.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=48_
+p1079
+sg19
+g25
+(S'\x07\xda\x02\x05\t\x193\x00\x00\x00'
+p1080
+tp1081
+Rp1082
+sg29
+g626
+sg31
+I48
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=48'
+p1083
+sg34
+Nsg35
+g62
+sa(dp1084
+g2
+S'new'
+p1085
+sg4
+S"Hello,\r\n\r\nthere has always been a need (at least for me) to redirect the output of\r\nprint() to somewhere else than stdout, especially lately, as I was\r\nprogramming PSP-related things with TinyPy.\r\n\r\nHere, I submit 3 patches and 1 new file for this - they are based off the\r\nlatest SVN revision ( R148 ).\r\nI did not know how the functions and types should be named, and therefore\r\nmay be currently named rather confusingly - feel free to change this if you\r\ndo decide to put this into trunk.\r\n\r\nThe patches were tested on Windows with the default TinyPy runner (just to\r\nverify that it still works as usual) and with with PSP (on which I did use\r\ncallbacks).\r\n\r\nAt the moment, the compiler complains about tp_stderr and tp_stdin being\r\ndefined and not used - I've just added them for future use, feel free to\r\ncomment them out."
+p1086
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1087
+sg8
+S'Patches for stdout/stderr/stdin callbacks'
+p1088
+sg10
+(lp1089
+g12
+aS'Priority-Medium'
+p1090
+ag14
+asg16
+(lp1091
+(dp1092
+g19
+S'May 08, 2010 04:29:08'
+p1093
+sg4
+S'By the way, this should be put under the "enhancement" type.'
+p1094
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1095
+sa(dp1096
+g19
+S'May 08, 2010 04:44:36'
+p1097
+sg4
+S'Hmm, I have just realized a possible improvement - this could (and should) be done on\r\na per-vm basis - but before I start with that (as it would require changes in the\r\nstructure of tp_vm), I would like to know what do you think so far?'
+p1098
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1099
+sa(dp1100
+g19
+S'May 08, 2010 04:46:05'
+p1101
+sg4
+S'Also, the typedefs might actually not be required...'
+p1102
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1103
+sa(dp1104
+g19
+S'May 08, 2010 06:31:54'
+p1105
+sg4
+VDeleted above patches, as I added a new set of them... This time, the callbacks are\u000aset on a per-VM basis, with (in my opinion) much more clear syntax/types.\u000a\u000a
+p1106
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1107
+sa(dp1108
+g19
+S'May 08, 2010 06:41:02'
+p1109
+sg4
+VSame set of patches, in ed script form, accepted by the patch tool (I noticed that I\u000aforgot the -e argument to diff earlier...)\u000a\u000a
+p1110
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1111
+sa(dp1112
+g19
+S'June 29, 2010 07:59:24'
+p1113
+sg4
+VI've deleted the patches since I've noticed that simply modifying the builtin print() function works.\u000aHowever, if anyone is interested, I've included some new patches, with new (cleaner) code and no new file.\u000a\u000a**Attachment:** [cbio.patch](http://code.google.com/p/tinypy/issues/detail?id=49#hc6)
+p1114
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1115
+sasg23
+V_From [darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/) on May 08, 2010 11:28:05_\u000a\u000aHello,\u000a\u000athere has always been a need (at least for me) to redirect the output of\u000aprint() to somewhere else than stdout, especially lately, as I was\u000aprogramming PSP-related things with TinyPy.\u000a\u000aHere, I submit 3 patches and 1 new file for this - they are based off the\u000alatest SVN revision ( R148 ).\u000aI did not know how the functions and types should be named, and therefore\u000amay be currently named rather confusingly - feel free to change this if you\u000ado decide to put this into trunk.\u000a\u000aThe patches were tested on Windows with the default TinyPy runner (just to\u000averify that it still works as usual) and with with PSP (on which I did use\u000acallbacks).\u000a\u000aAt the moment, the compiler complains about tp_stderr and tp_stdin being\u000adefined and not used - I've just added them for future use, feel free to\u000acomment them out.\u000a\u000a\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=49_
+p1116
+sg19
+g25
+(S'\x07\xda\x05\x08\x0b\x1c\x05\x00\x00\x00'
+p1117
+tp1118
+Rp1119
+sg29
+g626
+sg31
+I49
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=49'
+p1120
+sg34
+Nsg35
+g62
+sa(dp1121
+g2
+S'new'
+p1122
+sg4
+S'See the attached file for the actual problem code & comments.\r\n\r\nThis is from unmodified SVN head TinyPy.\r\n\r\nI would suggest that an exception is made for self.*:\r\n*.__get__(x) should never be called if the caller is a function from the\r\nclass itself (caller == self).\r\nIt should ONLY be called if caller is from another class or global, unless\r\nit is called explocitly (as in, "self.__get__(x)" actually written in code).\r\n\r\nThe same holds for __set__(x, v), of course.\r\n\r\nI will try to make a patch for this, but no promises... I am not very\r\naquainted with the TinyPy internals (yet).'
+p1123
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1124
+sg8
+S'self.* in __set__ and __get__ results in a stack overflow in SVN TinyPy'
+p1125
+sg10
+(lp1126
+g12
+aS'Priority-Medium'
+p1127
+ag14
+asg16
+(lp1128
+sg23
+V_From [darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/) on May 08, 2010 14:45:18_\u000a\u000aSee the attached file for the actual problem code & comments.\u000a\u000aThis is from unmodified SVN head TinyPy.\u000a\u000aI would suggest that an exception is made for self.*:\u000a*.__get__(x) should never be called if the caller is a function from the\u000aclass itself (caller == self).\u000aIt should ONLY be called if caller is from another class or global, unless\u000ait is called explocitly (as in, "self.__get__(x)" actually written in code).\u000a\u000aThe same holds for __set__(x, v), of course.\u000a\u000aI will try to make a patch for this, but no promises... I am not very\u000aaquainted with the TinyPy internals (yet).\u000a\u000a**Attachment:** [test.py](http://code.google.com/p/tinypy/issues/detail?id=50)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=50_
+p1129
+sg19
+g25
+(S'\x07\xda\x05\x08\x0e-\x12\x00\x00\x00'
+p1130
+tp1131
+Rp1132
+sg29
+g626
+sg31
+I50
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=50'
+p1133
+sg34
+Nsg35
+g62
+sa(dp1134
+g2
+S'new'
+p1135
+sg4
+S"This adds a print statement, so that you can do the following:\r\n\r\ni = 5;\r\n#outputs 'foo bar 5'\r\nprint 'foo', 'bar', i\r\n\r\nNote that this could use some more testing!"
+p1136
+sg6
+S'[darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/)'
+p1137
+sg8
+S'Patch for adding a "print" statement'
+p1138
+sg10
+(lp1139
+g12
+aS'Priority-Medium'
+p1140
+ag14
+asg16
+(lp1141
+sg23
+V_From [darkuran...@gmail.com](https://code.google.com/u/107134519662682325945/) on June 29, 2010 15:01:50_\u000a\u000aThis adds a print statement, so that you can do the following:\u000a\u000ai = 5;\u000a#outputs 'foo bar 5'\u000aprint 'foo', 'bar', i\u000a\u000aNote that this could use some more testing!\u000a\u000a**Attachment:** [print_stat.patch](http://code.google.com/p/tinypy/issues/detail?id=51)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=51_
+p1142
+sg19
+g25
+(S'\x07\xda\x06\x1d\x0f\x012\x00\x00\x00'
+p1143
+tp1144
+Rp1145
+sg29
+g626
+sg31
+I51
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=51'
+p1146
+sg34
+Nsg35
+g62
+sa(dp1147
+g2
+S'new'
+p1148
+sg4
+S'What steps will reproduce the problem? 1. compile tinypy using gcc toolkit for ARM architecture\r\n2. run the tinypy binary with a script as an argument\r\n\r\nThe script contains single instruction:\r\nprint("TEST")\r\n\r\nThe tinypy returns with an error: \r\nException:\r\ntp_load(boot.tpc)\r\n\r\nIf I put *.tpc files into the same directory where the tinypy binary is then it displays:\r\nException:\r\ntp_get: KeyError: open\r\n\r\nI thought that tinypy is a standalone bianry. And it seems to be - at least the version compiled with mingw for Windows is (I have succesfully compiled).\r\n\r\nCould you help me to run tinypy? Or at lease give some advice what these errors mean?'
+p1149
+sg6
+S'[D.Miron...@gmail.com](https://code.google.com/u/111794344796688741606/)'
+p1150
+sg8
+S'Running tinypy on ARM platform'
+p1151
+sg10
+(lp1152
+g12
+aS'Priority-Medium'
+p1153
+ag14
+asg16
+(lp1154
+(dp1155
+g19
+S'April 03, 2011 13:03:33'
+p1156
+sg4
+S'Check that\r\n\r\nis_tinypy = (str(1.0) == "1")\r\nif not is_tinypy:\r\n    from boot import * \r\n\r\nworks as expected on ARM. Look at \'tp_str\' function definition in section \'if (type == TP_NUMBER)\'. Possibly error is somewhere here.'
+p1157
+sg6
+S'[breaker....@gmail.com](https://code.google.com/u/103217794346832087106/)'
+p1158
+sasg23
+V_From [D.Miron...@gmail.com](https://code.google.com/u/111794344796688741606/) on December 02, 2010 15:21:57_\u000a\u000aWhat steps will reproduce the problem? 1. compile tinypy using gcc toolkit for ARM architecture\u000a2. run the tinypy binary with a script as an argument\u000a\u000aThe script contains single instruction:\u000aprint("TEST")\u000a\u000aThe tinypy returns with an error: \u000aException:\u000atp_load(boot.tpc)\u000a\u000aIf I put *.tpc files into the same directory where the tinypy binary is then it displays:\u000aException:\u000atp_get: KeyError: open\u000a\u000aI thought that tinypy is a standalone bianry. And it seems to be - at least the version compiled with mingw for Windows is (I have succesfully compiled).\u000a\u000aCould you help me to run tinypy? Or at lease give some advice what these errors mean?\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=52_
+p1159
+sg19
+g25
+(S'\x07\xda\x0c\x02\x0f\x159\x00\x00\x00'
+p1160
+tp1161
+Rp1162
+sg29
+g626
+sg31
+I52
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=52'
+p1163
+sg34
+Nsg35
+g62
+sa(dp1164
+g2
+S'new'
+p1165
+sg4
+S'This code (placed in class-method) works fine on python, but generates TypeError on TinyPy:\r\n#=======\r\n_list = [\'test\']\r\nif _list and len(_list) != 1 or not _list[0]:\r\n    print(str(_list))\r\n#=======\r\nGenerates exception: "Exception: (tp_get) TypeError: ?0" in \'if\' line. What version of the product are you using? On what operating system? SVN-latest version, Windows. Please provide any additional information below. It looks like the problem is in python part of TinyPy. It uses wrong internal registers.'
+p1166
+sg6
+S'[breaker....@gmail.com](https://code.google.com/u/103217794346832087106/)'
+p1167
+sg8
+S"'If' statement bug"
+p1168
+sg10
+(lp1169
+g12
+aS'Priority-Medium'
+p1170
+ag14
+asg16
+(lp1171
+sg23
+V_From [breaker....@gmail.com](https://code.google.com/u/103217794346832087106/) on May 13, 2012 09:15:49_\u000a\u000aThis code (placed in class-method) works fine on python, but generates TypeError on TinyPy:\u000a#=======\u000a_list = ['test']\u000aif _list and len(_list) != 1 or not _list[0]:\u000a    print(str(_list))\u000a#=======\u000aGenerates exception: "Exception: (tp_get) TypeError: ?0" in 'if' line. What version of the product are you using? On what operating system? SVN-latest version, Windows. Please provide any additional information below. It looks like the problem is in python part of TinyPy. It uses wrong internal registers.\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=53_
+p1172
+sg19
+g25
+(S'\x07\xdc\x05\r\t\x0f1\x00\x00\x00'
+p1173
+tp1174
+Rp1175
+sg29
+g626
+sg31
+I53
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=53'
+p1176
+sg34
+Nsg35
+g62
+sa(dp1177
+g2
+S'new'
+p1178
+sg4
+S'What steps will reproduce the problem? 1. Create a class with a __call__(self) method\r\n2. Instantiate it\r\n3. Attempt to call the instance\r\n\r\nclass Test:\r\n    def __call__(self):\r\n        print("hello world")\r\n\r\ninstance = Test()\r\ninstance() What is the expected output? What do you see instead? This code is expected to print "hello world", but it produces nothing. If you were to add the line instance2 = instance() and then query the value of instance2, you would see that instance2 is another Test object. Tinypy is not calling the __call__ method of the instance, but actually calling the __call__ method of the CLASS, ( i.e. Test() )'
+p1179
+sg6
+S'[RCopperw...@gmail.com](https://code.google.com/u/115027685456491001007/)'
+p1180
+sg8
+S'__call__ method cannot be defined for objects'
+p1181
+sg10
+(lp1182
+g12
+aS'Priority-Medium'
+p1183
+ag14
+asg16
+(lp1184
+sg23
+V_From [RCopperw...@gmail.com](https://code.google.com/u/115027685456491001007/) on December 16, 2012 10:55:52_\u000a\u000aWhat steps will reproduce the problem? 1. Create a class with a __call__(self) method\u000a2. Instantiate it\u000a3. Attempt to call the instance\u000a\u000aclass Test:\u000a    def __call__(self):\u000a        print("hello world")\u000a\u000ainstance = Test()\u000ainstance() What is the expected output? What do you see instead? This code is expected to print "hello world", but it produces nothing. If you were to add the line instance2 = instance() and then query the value of instance2, you would see that instance2 is another Test object. Tinypy is not calling the __call__ method of the instance, but actually calling the __call__ method of the CLASS, ( i.e. Test() )\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=54_
+p1185
+sg19
+g25
+(S'\x07\xdc\x0c\x10\n74\x00\x00\x00'
+p1186
+tp1187
+Rp1188
+sg29
+g626
+sg31
+I54
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=54'
+p1189
+sg34
+Nsg35
+g62
+sa(dp1190
+g2
+S'new'
+p1191
+sg4
+S"What steps will reproduce the problem? 1. download the file deflimit.py.  It just has this in it:\r\n\r\ndef func0x():\r\n        return 5\r\n\r\ndef func1x():\r\n        return 5\r\n\r\ndef func2x():\r\n        return 5\r\n.\r\n.\r\n.\r\netc.\r\n\r\n2. Try to compile it.  tinypy will print this error message:\r\n\r\nException:\r\nerror: encode\r\n766: def func255x():\r\n      ^ What is the expected output? What do you see instead? I'd like it to compile without error. Right now it only compiles 255 function definitions. What version of the product are you using? On what operating system? On OSX 10.7.5 tinypy version 1.1 Please provide any additional information below. Please see the attached file."
+p1192
+sg6
+S'[paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/)'
+p1193
+sg8
+S'Defining more that 255 functons fails.'
+p1194
+sg10
+(lp1195
+g12
+aS'Priority-Medium'
+p1196
+ag14
+asg16
+(lp1197
+sg23
+V_From [paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/) on February 17, 2013 19:54:56_\u000a\u000aWhat steps will reproduce the problem? 1. download the file deflimit.py.  It just has this in it:\u000a\u000adef func0x():\u000a        return 5\u000a\u000adef func1x():\u000a        return 5\u000a\u000adef func2x():\u000a        return 5\u000a.\u000a.\u000a.\u000aetc.\u000a\u000a2. Try to compile it.  tinypy will print this error message:\u000a\u000aException:\u000aerror: encode\u000a766: def func255x():\u000a      ^ What is the expected output? What do you see instead? I'd like it to compile without error. Right now it only compiles 255 function definitions. What version of the product are you using? On what operating system? On OSX 10.7.5 tinypy version 1.1 Please provide any additional information below. Please see the attached file.\u000a\u000a**Attachment:** [deflimit.py](http://code.google.com/p/tinypy/issues/detail?id=55)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=55_
+p1198
+sg19
+g25
+(S'\x07\xdd\x02\x11\x1368\x00\x00\x00'
+p1199
+tp1200
+Rp1201
+sg29
+g626
+sg31
+I55
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=55'
+p1202
+sg34
+Nsg35
+g62
+sa(dp1203
+g2
+S'new'
+p1204
+sg4
+S'What steps will reproduce the problem? 1. Try to compile:\r\n\r\ndef func(a):\r\n    if a<0.5:\r\n        return 0,0\r\n    else:\r\n        return 1.0\r\n\r\nprint(func(3))\r\n\r\nBut use tabs infront to the "return" statements.\r\n\r\n2. Run the compiler  it prints this message:\r\n\r\nException:\r\nerror: tokenize\r\n   4: \treturn 0,0\r\n      ^ What is the expected output? What do you see instead? I\'d expect tinypy to expand tabs in the input file into \r\n    equivalent spaces, like Cpython does.  Something like the \r\n    unix command expand:\r\n\r\n    expand -8 < tabs.py > notabs.py What version of the product are you using? On what operating system? tinypy version 1.1 OSX 10.7.5 Please provide any additional information below. Please see the attached file.'
+p1205
+sg6
+S'[paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/)'
+p1206
+sg8
+S'tinypy does not handle tabs in input files correctly.'
+p1207
+sg10
+(lp1208
+g12
+aS'Priority-Medium'
+p1209
+ag14
+asg16
+(lp1210
+sg23
+V_From [paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/) on February 17, 2013 20:02:13_\u000a\u000aWhat steps will reproduce the problem? 1. Try to compile:\u000a\u000adef func(a):\u000a    if a<0.5:\u000a        return 0,0\u000a    else:\u000a        return 1.0\u000a\u000aprint(func(3))\u000a\u000aBut use tabs infront to the "return" statements.\u000a\u000a2. Run the compiler  it prints this message:\u000a\u000aException:\u000aerror: tokenize\u000a   4: 	return 0,0\u000a      ^ What is the expected output? What do you see instead? I'd expect tinypy to expand tabs in the input file into \u000a    equivalent spaces, like Cpython does.  Something like the \u000a    unix command expand:\u000a\u000a    expand -8 < tabs.py > notabs.py What version of the product are you using? On what operating system? tinypy version 1.1 OSX 10.7.5 Please provide any additional information below. Please see the attached file.\u000a\u000a**Attachment:** [tabs.py](http://code.google.com/p/tinypy/issues/detail?id=56)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=56_
+p1211
+sg19
+g25
+(S'\x07\xdd\x02\x11\x14\x02\r\x00\x00\x00'
+p1212
+tp1213
+Rp1214
+sg29
+g626
+sg31
+I56
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=56'
+p1215
+sg34
+Nsg35
+g62
+sa(dp1216
+g2
+S'new'
+p1217
+sg4
+S'tinypy is amazing.  Very nice to see such a concise implementation\r\nof python! What steps will reproduce the problem? 1. try to run this code:\r\n\r\nndel = 0\r\n\r\nclass rect:\r\n    def __init__(self, orgx, orgy, sizex, sizey):\r\n        self.orgx = orgx\r\n        self.orgy = orgy\r\n        self.sizex = sizex\r\n        self.sizey = sizey\r\n        self.list = [];\r\n        for i in range(10):\r\n            self.list.append(i)\r\n\r\n    def __del__(self):\r\n        print("del")\r\n        ndel = ndel + 1\r\n\r\nfor i in range(1000):\r\n    a = rect(0,0,100,100)\r\n    b = rect(0,0,100,100)\r\n    b = a\r\n\r\nprint("__del__ called " + str(ndel) + " times")\r\nprint("bye") What is the expected output? What do you see instead? I was expecting __del__ to be called like in cpython.  Is garbage collection\r\nworking?  I added printf to gc.c and it shows these functions being called,\r\nbut the __del__ function is not being called.\r\n\r\nrunning tp_follow\r\nrunning tp_follow\r\nrunning tp_follow\r\nrunning tp_full\r\nrunning tp_follow\r\nrunning tp_collect\r\nrunning tp_follow\r\nrunning tp_follow What version of the product are you using? On what operating system? tinypy 1.1 OSX 10.7.5 Please provide any additional information below. See the attached file del.py'
+p1218
+sg6
+S'[paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/)'
+p1219
+sg8
+S'Is __del__ supported? Is garbage collection working?'
+p1220
+sg10
+(lp1221
+g12
+aS'Priority-Medium'
+p1222
+ag14
+asg16
+(lp1223
+(dp1224
+g19
+S'February 18, 2013 11:18:06'
+p1225
+sg4
+S'After adding some printfs it looks like garbabge collection is happening fine, the problem is that __del__ is not being called.  Maybe if I study the source I can make it work...'
+p1226
+sg6
+S'[paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/)'
+p1227
+sasg23
+V_From [paulhaeb...@gmail.com](https://code.google.com/u/112173666213441000878/) on February 18, 2013 07:22:53_\u000a\u000atinypy is amazing.  Very nice to see such a concise implementation\u000aof python! What steps will reproduce the problem? 1. try to run this code:\u000a\u000andel = 0\u000a\u000aclass rect:\u000a    def __init__(self, orgx, orgy, sizex, sizey):\u000a        self.orgx = orgx\u000a        self.orgy = orgy\u000a        self.sizex = sizex\u000a        self.sizey = sizey\u000a        self.list = [];\u000a        for i in range(10):\u000a            self.list.append(i)\u000a\u000a    def __del__(self):\u000a        print("del")\u000a        ndel = ndel + 1\u000a\u000afor i in range(1000):\u000a    a = rect(0,0,100,100)\u000a    b = rect(0,0,100,100)\u000a    b = a\u000a\u000aprint("__del__ called " + str(ndel) + " times")\u000aprint("bye") What is the expected output? What do you see instead? I was expecting __del__ to be called like in cpython.  Is garbage collection\u000aworking?  I added printf to gc.c and it shows these functions being called,\u000abut the __del__ function is not being called.\u000a\u000arunning tp_follow\u000arunning tp_follow\u000arunning tp_follow\u000arunning tp_full\u000arunning tp_follow\u000arunning tp_collect\u000arunning tp_follow\u000arunning tp_follow What version of the product are you using? On what operating system? tinypy 1.1 OSX 10.7.5 Please provide any additional information below. See the attached file del.py\u000a\u000a**Attachment:** [del.py](http://code.google.com/p/tinypy/issues/detail?id=57)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=57_
+p1228
+sg19
+g25
+(S'\x07\xdd\x02\x12\x07\x165\x00\x00\x00'
+p1229
+tp1230
+Rp1231
+sg29
+g626
+sg31
+I57
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=57'
+p1232
+sg34
+Nsg35
+g62
+sa(dp1233
+g2
+S'new'
+p1234
+sg4
+S'I want to know whether tinypy will be compatible with my hardware with following configuration?\r\n\r\nATSAM9CN12 (ARM 9)\r\n +\r\nembOS(RTOS)\r\n +\r\nemFile(File system)'
+p1235
+sg6
+S'[tk...@snu.edu.in](https://code.google.com/u/117615606671170093582/)'
+p1236
+sg8
+S'Compatibility of tinypy with embOS'
+p1237
+sg10
+(lp1238
+g12
+aS'Priority-Medium'
+p1239
+ag14
+asg16
+(lp1240
+sg23
+V_From [tk...@snu.edu.in](https://code.google.com/u/117615606671170093582/) on October 07, 2014 09:13:26_\u000a\u000aI want to know whether tinypy will be compatible with my hardware with following configuration?\u000a\u000aATSAM9CN12 (ARM 9)\u000a +\u000aembOS(RTOS)\u000a +\u000aemFile(File system)\u000a\u000a_Original issue: http://code.google.com/p/tinypy/issues/detail?id=59_
+p1241
+sg19
+g25
+(S'\x07\xde\n\x07\t\r\x1a\x00\x00\x00'
+p1242
+tp1243
+Rp1244
+sg29
+g626
+sg31
+I59
+sg32
+S'http://code.google.com/p/tinypy/issues/detail?id=59'
+p1245
+sg34
+Nsg35
+g62
+sa.

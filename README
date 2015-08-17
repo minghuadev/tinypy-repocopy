@@ -27,3 +27,8 @@ Last Changed Date: 2009-11-11 11:01:44 +0000 (Wed, 11 Nov 2009)
 
 
 
+issuesdump/
+
+contains the script to dump googlecode issues and the pickle save of the issues.
+
+
